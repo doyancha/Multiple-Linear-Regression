@@ -87,6 +87,14 @@ Predict house sale price using basic structural and location features.
 **Project Type**  
 Classic regression benchmark – Beginner–Intermediate
 
+**Objectives**
+
+- Understand how structural features (especially living area size) and location (distance to city center) drive house prices  
+- Observe the strong linear relationship between square footage and price  
+- See the negative impact of distance and age — and how standardization helps interpret coefficients meaningfully  
+- Compare relative importance of features through regression coefficients  
+- Recognize when linear assumptions hold well (or start to break) in real-estate data
+
 **Expected Feature Importance (Intuitive)**
 
 | Feature            | Expected direction       | Strength   |
@@ -108,6 +116,14 @@ Estimate used car `Price(USD)` from make, model year, mileage, etc.
 
 **Project Type**  
 Tabular regression with categorical encoding – Intermediate
+
+**Objectives**
+
+- Understand the dominant effect of **year** and **mileage** on used car pricing  
+- Learn how to handle multiple categorical variables (brand, fuel type, transmission, condition) through one-hot encoding  
+- Observe how standardization changes coefficient interpretation for numerical features (mileage, engine size, age)  
+- Compare feature importance via coefficients — especially to see which brands carry a premium  
+- Recognize common real-world issues: non-linear depreciation, brand effects, and interaction between age and mileage
 
 **Expected Feature Importance (Intuitive)**
 
@@ -131,6 +147,15 @@ Predict `Total_Compensation(USD)` = base salary + bonus
 
 **Project Type**  
 Business / HR analytics regression – Intermediate–Advanced
+
+*Objectives**
+
+- Understand how strongly **base salary** dominates total compensation prediction  
+- See the added value of job level, experience, department, and performance rating beyond base pay  
+- Learn the effect of including vs excluding base salary (very different difficulty & R²)  
+- Observe how categorical encoding reveals compensation differences across departments, locations, education levels, etc.  
+- Compare feature importance via coefficients — especially to quantify the premium for seniority, education, and remote work  
+- Recognize when linear regression works very well (with base salary) vs when tree-based models become clearly superior (without it)
 
 **Expected Feature Importance (Intuitive)**
 
