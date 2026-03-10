@@ -75,3 +75,71 @@ Supervised regression – **Beginner–Intermediate**
 | 4    | Tutoring_Support_Yes     | +                  | ★★★☆☆    |
 | 5    | Sleep_Hours              | + (up to ~8)       | ★★☆☆☆    |
 
+
+## Project 2 – House Price Prediction
+
+**Goal**  
+Predict house sale price using basic structural and location features.
+
+**Dataset**  
+`house_price_dataset.csv`
+
+**Project Type**  
+Classic regression benchmark – Beginner–Intermediate
+
+**Expected Feature Importance (Intuitive)**
+
+| Feature            | Expected direction       | Strength   |
+|--------------------|--------------------------|------------|
+| size_sqft          | Strong positive          | ★★★★★      |
+| distance_city_km   | Strong negative          | ★★★★☆      |
+| bedrooms           | Positive (diminishing)   | ★★★☆☆      |
+| age                | Negative                 | ★★★☆☆      |
+
+──────────────────────────────────────────────────────────────
+
+## Project 3 – Used Car Price Prediction
+
+**Goal**  
+Estimate used car `Price(USD)` from make, model year, mileage, etc.
+
+**Dataset**  
+`car_price_prediction_dataset.csv`
+
+**Project Type**  
+Tabular regression with categorical encoding – Intermediate
+
+**Expected Feature Importance (Intuitive)**
+
+| Rank | Feature              | Expected direction   | Strength   |
+|------|----------------------|----------------------|------------|
+| 1    | Year                 | +                    | ★★★★★      |
+| 2    | Mileage(km)          | –                    | ★★★★★      |
+| 3    | Brand (premium)      | +                    | ★★★★☆      |
+| 4    | Accidents_Reported   | –                    | ★★★☆☆      |
+| 5    | Engine_Size(L)       | +                    | ★★★☆☆      |
+
+──────────────────────────────────────────────────────────────
+
+## Project 4 – Employee Total Compensation Prediction
+
+**Goal**  
+Predict `Total_Compensation(USD)` = base salary + bonus
+
+**Dataset**  
+`employee_salary_dataset.csv`
+
+**Project Type**  
+Business / HR analytics regression – Intermediate–Advanced
+
+**Expected Feature Importance (Intuitive)**
+
+| Rank | Feature                        | Expected direction              | Strength   |
+|------|--------------------------------|---------------------------------|------------|
+| 1    | Base_Salary(USD)               | +                               | ★★★★★      |
+| 2    | Job_Level (Director/Sr)        | +                               | ★★★★☆      |
+| 3    | Experience_Years               | +                               | ★★★★☆      |
+| 4    | Department (Eng/Finance)       | + vs HR/Marketing               | ★★★☆☆      |
+| 5    | Performance_Rating             | +                               | ★★★☆☆      |
+
+──────────────────────────────────────────────────────────────
