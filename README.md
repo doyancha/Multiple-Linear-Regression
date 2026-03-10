@@ -8,80 +8,116 @@ Environment: Python 3.9+ / Jupyter Notebook / Google Colab compatible
 
 ---
 
-## 📊 Overview of the Four Projects
+# Regression Projects Collection  
+**Student Performance · House Prices · Used Cars · Employee Compensation**
 
-| # | Dataset                          | Target Variable                  | Main Task                              | Key Features / Difficulty |
-|---|----------------------------------|----------------------------------|----------------------------------------|----------------------------|
-| 1 | Student Performance              | Average_Score / Math_Score       | Predict student academic performance   | ★★☆☆☆                     |
-| 2 | House Prices                     | price                            | Classic house price regression         | ★★☆☆☆                     |
-| 3 | Car Price Prediction             | Price(USD)                       | Used car price estimation              | ★★★☆☆                     |
-| 4 | Employee Total Compensation      | Total_Compensation(USD)          | Salary & bonus prediction              | ★★★★☆                     |
+──────────────────────────────────────────────────────────────
 
-All projects follow the same high-quality structure:
+## Overview – Four Linear Regression Learning Projects
+
+| # | Project                          | Target                           | Main Theme                            | Difficulty | Key Insight                              |
+|---|----------------------------------|----------------------------------|---------------------------------------|------------|------------------------------------------|
+| 1 | Student Performance              | `Average_Score`                  | Academic success factors              | ★★☆☆☆      | Previous score dominates                 |
+| 2 | House Prices                     | `price`                          | Classic real-estate valuation         | ★★☆☆☆      | Size matters most                        |
+| 3 | Used Car Prices                  | `Price(USD)`                     | Automotive market pricing             | ★★★☆☆      | Year & mileage very strong               |
+| 4 | Employee Total Compensation      | `Total_Compensation(USD)`        | Salary + bonus modeling               | ★★★★☆      | Base salary explains most variance       |
+
+All projects use the same high-level workflow:
 
 1. Imports & setup  
-2. Data loading & quick EDA  
-3. Feature selection & target definition  
-4. Preprocessing pipeline (scaling + encoding)  
-5. Train-test split  
-6. Model training  
-7. Evaluation (MAE / RMSE / R²)  
-8. Coefficients interpretation  
-9. Actual vs Predicted visualization  
-10. Example prediction on new data
+2. Data loading & quick look  
+3. Feature + target selection  
+4. Preprocessing (scaling + encoding)  
+5. Train/test split  
+6. Model training & evaluation  
+7. Coefficients interpretation  
+8. Actual vs Predicted plot  
+9. Example prediction
 
----
+──────────────────────────────────────────────────────────────
 
-## 🎯 Project 1 – Student Performance Prediction
+## Project 1 – Student Performance Prediction
 
-**Goal**: Predict `Average_Score` (or individual subject scores)  
-**Dataset**: `student_performance_dataset.csv`
+**Goal**  
+Predict student's `Average_Score` (or individual subject scores) based on study habits, background and support factors.
 
-### Most important features (expected)
+**Dataset**  
+`student_performance_dataset.csv`
 
-| Feature                  | Expected direction | Strength   |
-|--------------------------|--------------------|------------|
-| Previous_Score           | +                  | ★★★★★     |
-| Study_Hours_Per_Day      | +                  | ★★★★☆     |
-| Attendance_Rate(%)       | +                  | ★★★★☆     |
-| Tutoring_Support_Yes     | +                  | ★★★☆☆     |
-| Sleep_Hours              | + (up to ~8h)      | ★★☆☆☆     |
+**Columns (most important)**
 
+| Column                   | Type      | Meaning / Range                              |
+|--------------------------|-----------|----------------------------------------------|
+| Average_Score            | float     | Target (≈ average of Math/Reading/Writing)   |
+| Previous_Score           | int       | Previous exam score (most predictive)        |
+| Study_Hours_Per_Day      | float     | 0.5 – 10.0                                   |
+| Attendance_Rate(%)       | int       | 50–99 %                                      |
+| Tutoring_Support         | category  | Yes / No                                     |
+| Sleep_Hours              | float     | 4–10 h                                       |
+| Parent_Education         | category  | High School / Bachelor / Master / PhD       |
+| Extracurricular          | category  | Yes / No                                     |
 
-## 🎯 Project 2- House Price Prediction with Linear Regression  
-**Classic Regression Project – Beginner to Intermediate**
+**Project Type**  
+Supervised regression – **Beginner–Intermediate**
 
-![House Price Concept Banner](https://images.unsplash.com/photo-1580587771525-78b9e3f9dd10?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80)  
-*Modern house valuation using machine learning*
+**Objectives**  
+- Understand impact of study time, attendance, prior performance  
+- See value of categorical encoding + standardization  
+- Compare feature importance via coefficients
 
-**Last updated:** March 2026  
-**Author:** Mir Shahadut  
-**Environment:** Python 3.9+ / Jupyter Notebook / Google Colab
+**Expected Feature Importance (Intuitive)**
 
----
+| Rank | Feature                  | Expected direction | Strength |
+|------|--------------------------|--------------------|----------|
+| 1    | Previous_Score           | +                  | ★★★★★    |
+| 2    | Study_Hours_Per_Day      | +                  | ★★★★☆    |
+| 3    | Attendance_Rate(%)       | +                  | ★★★★☆    |
+| 4    | Tutoring_Support_Yes     | +                  | ★★★☆☆    |
+| 5    | Sleep_Hours              | + (up to ~8)       | ★★☆☆☆    |
 
-## 🎯 Project Objective
+**Most important code cells**
 
-Build a **linear regression model** to predict house sale **price (USD)** based on basic property features:
+```python
+# ─── 1. Imports ────────────────────────────────────────────────
+import pandas as pd, numpy as np, matplotlib.pyplot as plt, seaborn as sns
+from sklearn.model_selection import train_test_split
+from sklearn.preprocessing import StandardScaler, OneHotEncoder
+from sklearn.compose import ColumnTransformer
+from sklearn.pipeline import Pipeline
+from sklearn.linear_model import LinearRegression
+from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
 
-- `size_sqft`  
-- `bedrooms`  
-- `age` (years since built)  
-- `distance_city_km`
+sns.set_style("whitegrid")
 
-**Dataset:** `house_price_dataset.csv`
+# ─── 2. Load & quick look ──────────────────────────────────────
+df = pd.read_csv("student_performance_dataset.csv")
+print(df[['Average_Score','Previous_Score','Study_Hours_Per_Day']].describe().round(1))
 
----
+# ─── 3. Features & target ──────────────────────────────────────
+target = 'Average_Score'
+features = ['Gender','Age','Study_Hours_Per_Day','Attendance_Rate(%)',
+            'Previous_Score','Tutoring_Support','Parent_Education',
+            'Extracurricular','Sleep_Hours']
 
-## 📊 Expected Feature Importance (Intuitive)
+X = df[features].copy()
+y = df[target]
 
-| Feature              | Expected Relationship with Price | Strength      | Reasoning                                      |
-|----------------------|----------------------------------|---------------|------------------------------------------------|
-| size_sqft            | **Strong positive**              | ★★★★★        | Larger houses usually cost significantly more |
-| distance_city_km     | **Strong negative**              | ★★★★☆        | Farther from city center → lower value         |
-| bedrooms             | **Positive** (with diminishing returns) | ★★★☆☆   | More bedrooms help, but not linearly forever   |
-| age                  | **Negative**                     | ★★★☆☆        | Older houses often worth less (maintenance)    |
+# ─── 4. Preprocessing pipeline ─────────────────────────────────
+preprocessor = ColumnTransformer([
+    ('num', StandardScaler(), ['Age','Study_Hours_Per_Day','Attendance_Rate(%)','Previous_Score','Sleep_Hours']),
+    ('cat', OneHotEncoder(drop='first'), ['Gender','Tutoring_Support','Parent_Education','Extracurricular'])
+])
 
+model = Pipeline([('prep', preprocessor), ('reg', LinearRegression())])
+
+# ─── 5. Split → Train → Evaluate ───────────────────────────────
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.25, random_state=42)
+model.fit(X_train, y_train)
+y_pred = model.predict(X_test)
+
+print(f"MAE:  {mean_absolute_error(y_test, y_pred):.2f}")
+print(f"RMSE: {np.sqrt(mean_squared_error(y_test, y_pred)):.2f}")
+print(f"R²:   {r2_score(y_test, y_pred):.3f}")
 ---
 
 ## 🛠️ Complete Jupyter Notebook Workflow
