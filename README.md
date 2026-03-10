@@ -48,3 +48,41 @@ All projects follow the same high-quality structure:
 | Sleep_Hours              | + (up to ~8h)      | ★★☆☆☆     |
 
 
+## 🎯 Project 2- House Price Prediction with Linear Regression  
+**Classic Regression Project – Beginner to Intermediate**
+
+![House Price Concept Banner](https://images.unsplash.com/photo-1580587771525-78b9e3f9dd10?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80)  
+*Modern house valuation using machine learning*
+
+**Last updated:** March 2026  
+**Author:** Mir Shahadut  
+**Environment:** Python 3.9+ / Jupyter Notebook / Google Colab
+
+---
+
+## 🎯 Project Objective
+
+Build a **linear regression model** to predict house sale **price (USD)** based on basic property features:
+
+- `size_sqft`  
+- `bedrooms`  
+- `age` (years since built)  
+- `distance_city_km`
+
+**Dataset:** `house_price_dataset.csv`
+
+---
+
+## 📊 Expected Feature Importance (Intuitive)
+
+| Feature              | Expected Relationship with Price | Strength      | Reasoning                                      |
+|----------------------|----------------------------------|---------------|------------------------------------------------|
+| size_sqft            | **Strong positive**              | ★★★★★        | Larger houses usually cost significantly more |
+| distance_city_km     | **Strong negative**              | ★★★★☆        | Farther from city center → lower value         |
+| bedrooms             | **Positive** (with diminishing returns) | ★★★☆☆   | More bedrooms help, but not linearly forever   |
+| age                  | **Negative**                     | ★★★☆☆        | Older houses often worth less (maintenance)    |
+
+---
+
+## 🛠️ Complete Jupyter Notebook Workflow
+
