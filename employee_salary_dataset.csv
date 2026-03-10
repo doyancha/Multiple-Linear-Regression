@@ -1,0 +1,1001 @@
+Employee_ID,Department,Job_Level,Gender,Location,Education,Experience_Years,Performance_Rating,Remote_Work,Base_Salary(USD),Bonus_Percentage(%),Bonus_Amount(USD),Total_Compensation(USD)
+EMP0001,Design,Mid,Male,Seattle,Bachelor,20,4,No,119160,19.0,22640,141800
+EMP0002,Legal,Manager,Male,Chicago,Bachelor,15,3,No,184083,0.7,1288,185371
+EMP0003,Engineering,Director,Male,Chicago,PhD,15,4,Yes,237389,16.8,39881,277270
+EMP0004,Design,Lead,Female,Austin,Bachelor,21,4,No,153230,12.4,19000,172230
+EMP0005,Marketing,Mid,Male,New York,Bachelor,11,2,Yes,95658,14.3,13679,109337
+EMP0006,Legal,Mid,Male,Remote,Bachelor,1,4,No,79549,9.3,7398,86947
+EMP0007,Legal,Mid,Male,Seattle,Bachelor,22,4,No,136613,17.9,24453,161066
+EMP0008,Finance,Manager,Female,Seattle,Master,23,3,No,204085,16.8,34286,238371
+EMP0009,Marketing,Manager,Male,Chicago,Bachelor,13,4,No,158596,14.5,22996,181592
+EMP0010,Design,Mid,Male,Austin,Master,10,4,Yes,86935,21.5,18691,105626
+EMP0011,Finance,Senior,Male,San Francisco,Bachelor,8,4,Yes,152827,2.5,3820,156647
+EMP0012,Finance,Junior,Female,Chicago,Master,21,4,Yes,94681,7.5,7101,101782
+EMP0013,Legal,Mid,Female,Chicago,Bachelor,6,4,No,97961,12.4,12147,110108
+EMP0014,Operations,Senior,Male,Seattle,High School,11,4,No,121429,24.0,29142,150571
+EMP0015,Finance,Mid,Male,Seattle,Bachelor,16,4,Yes,127382,1.8,2292,129674
+EMP0016,Legal,Mid,Male,Chicago,Bachelor,8,3,No,102720,8.4,8628,111348
+EMP0017,HR,Junior,Female,Seattle,Bachelor,5,3,Yes,60671,23.1,14015,74686
+EMP0018,Finance,Lead,Female,Austin,Bachelor,11,3,No,146526,22.4,32821,179347
+EMP0019,HR,Manager,Male,San Francisco,Master,19,3,No,176196,21.6,38058,214254
+EMP0020,Design,Director,Female,San Francisco,High School,9,3,No,221874,7.7,17084,238958
+EMP0021,Sales,Lead,Male,San Francisco,Bachelor,8,3,Yes,178644,21.2,37872,216516
+EMP0022,Operations,Senior,Female,Chicago,Bachelor,11,5,No,117012,12.6,14743,131755
+EMP0023,Design,Mid,Female,Remote,Master,0,5,Yes,70683,15.5,10955,81638
+EMP0024,Engineering,Director,Female,Chicago,High School,1,4,Yes,218958,6.0,13137,232095
+EMP0025,Marketing,Senior,Male,Chicago,High School,18,5,No,132318,17.7,23420,155738
+EMP0026,Marketing,Senior,Female,Austin,Bachelor,0,5,No,99909,8.2,8192,108101
+EMP0027,Sales,Senior,Male,San Francisco,Master,15,5,Yes,162591,8.6,13982,176573
+EMP0028,Finance,Lead,Male,Seattle,Master,15,2,No,172765,15.9,27469,200234
+EMP0029,Engineering,Junior,Male,Seattle,High School,17,3,No,103543,6.0,6212,109755
+EMP0030,Sales,Mid,Male,New York,Bachelor,17,4,No,119567,5.6,6695,126262
+EMP0031,Sales,Senior,Male,New York,Bachelor,22,2,No,147007,9.2,13524,160531
+EMP0032,Marketing,Manager,Non-binary,Remote,Bachelor,12,4,Yes,133504,19.5,26033,159537
+EMP0033,HR,Senior,Female,Seattle,Bachelor,21,2,Yes,131222,5.6,7348,138570
+EMP0034,Design,Mid,Male,San Francisco,Bachelor,11,3,No,109272,19.7,21526,130798
+EMP0035,Design,Mid,Male,Chicago,Bachelor,8,2,Yes,85886,17.4,14944,100830
+EMP0036,HR,Lead,Male,Seattle,Bachelor,4,4,No,143191,17.0,24342,167533
+EMP0037,Finance,Lead,Male,Remote,Bachelor,8,4,Yes,133888,11.9,15932,149820
+EMP0038,Finance,Senior,Male,Remote,Bachelor,12,4,No,121260,18.6,22554,143814
+EMP0039,Legal,Mid,Male,Seattle,Bachelor,15,3,No,126292,0.3,378,126670
+EMP0040,Legal,Manager,Female,New York,Bachelor,9,4,No,180868,7.6,13745,194613
+EMP0041,Design,Senior,Female,San Francisco,Master,15,4,No,152704,17.0,25959,178663
+EMP0042,Sales,Lead,Female,Seattle,Master,13,4,Yes,168876,24.7,41712,210588
+EMP0043,Finance,Mid,Female,Chicago,Bachelor,24,3,Yes,117722,0.1,117,117839
+EMP0044,HR,Mid,Male,Chicago,Bachelor,1,2,No,67587,12.7,8583,76170
+EMP0045,Design,Manager,Male,Austin,Bachelor,24,1,No,162833,23.1,37614,200447
+EMP0046,Engineering,Junior,Male,Chicago,Bachelor,18,4,No,94092,21.6,20323,114415
+EMP0047,Marketing,Senior,Female,Seattle,PhD,10,3,No,126940,0.6,761,127701
+EMP0048,HR,Senior,Male,Seattle,Bachelor,18,2,No,135456,13.2,17880,153336
+EMP0049,Legal,Lead,Male,Chicago,Master,10,3,No,161908,0.1,161,162069
+EMP0050,Operations,Mid,Female,New York,Bachelor,13,4,Yes,107717,19.7,21220,128937
+EMP0051,Finance,Mid,Male,San Francisco,Master,14,4,No,126384,7.7,9731,136115
+EMP0052,Marketing,Manager,Female,Remote,Master,24,4,Yes,154400,19.1,29490,183890
+EMP0053,Operations,Senior,Female,Seattle,Master,6,4,No,124572,23.6,29398,153970
+EMP0054,Design,Junior,Male,Chicago,Bachelor,14,2,No,71251,24.4,17385,88636
+EMP0055,Marketing,Junior,Female,Remote,Master,23,3,No,85116,22.4,19065,104181
+EMP0056,Sales,Director,Female,Chicago,Bachelor,22,3,Yes,209609,5.1,10690,220299
+EMP0057,Design,Junior,Female,Seattle,PhD,24,3,No,99828,4.9,4891,104719
+EMP0058,Finance,Senior,Male,Austin,Master,7,5,Yes,127491,15.6,19888,147379
+EMP0059,Sales,Mid,Female,San Francisco,Bachelor,3,4,Yes,99089,13.6,13476,112565
+EMP0060,Design,Manager,Male,Seattle,PhD,17,4,Yes,182553,0.2,365,182918
+EMP0061,Marketing,Lead,Female,Remote,Master,13,3,No,124720,9.8,12222,136942
+EMP0062,Sales,Senior,Male,Chicago,Master,20,3,Yes,136742,22.7,31040,167782
+EMP0063,Design,Junior,Male,Austin,Bachelor,17,3,Yes,79900,22.5,17977,97877
+EMP0064,Design,Manager,Male,Seattle,PhD,3,4,Yes,167739,5.1,8554,176293
+EMP0065,Finance,Mid,Male,San Francisco,Master,1,3,Yes,101264,9.5,9620,110884
+EMP0066,HR,Manager,Male,Austin,Master,20,3,Yes,153110,14.0,21435,174545
+EMP0067,Engineering,Senior,Male,Remote,PhD,5,4,Yes,123999,21.3,26411,150410
+EMP0068,Operations,Senior,Male,Chicago,Bachelor,10,5,No,112163,13.3,14917,127080
+EMP0069,HR,Junior,Male,New York,Bachelor,0,3,No,53499,24.2,12946,66445
+EMP0070,Design,Lead,Male,San Francisco,Bachelor,14,2,Yes,174427,20.0,34885,209312
+EMP0071,Marketing,Mid,Male,Austin,High School,11,3,No,92248,23.8,21955,114203
+EMP0072,Design,Mid,Female,Seattle,Master,23,4,Yes,126304,18.3,23113,149417
+EMP0073,HR,Junior,Female,Seattle,Bachelor,17,3,Yes,80216,21.9,17567,97783
+EMP0074,Sales,Junior,Male,Austin,Bachelor,4,4,No,64948,20.8,13509,78457
+EMP0075,Finance,Junior,Female,Seattle,Bachelor,10,4,No,76614,6.3,4826,81440
+EMP0076,HR,Mid,Female,Austin,Bachelor,23,3,No,104783,5.7,5972,110755
+EMP0077,HR,Manager,Male,San Francisco,Bachelor,20,2,Yes,177651,21.6,38372,216023
+EMP0078,Finance,Mid,Male,Seattle,High School,18,3,No,119357,2.1,2506,121863
+EMP0079,Sales,Lead,Male,San Francisco,Bachelor,21,3,No,192631,10.2,19648,212279
+EMP0080,Engineering,Junior,Non-binary,Chicago,Master,0,3,No,64288,20.5,13179,77467
+EMP0081,HR,Senior,Male,Chicago,Master,16,4,No,120659,20.3,24493,145152
+EMP0082,Operations,Senior,Female,Chicago,High School,7,4,Yes,112890,3.5,3951,116841
+EMP0083,Marketing,Director,Male,Chicago,Bachelor,22,2,Yes,187977,12.2,22933,210910
+EMP0084,Legal,Lead,Female,Seattle,Bachelor,15,4,No,188558,12.0,22626,211184
+EMP0085,Sales,Senior,Male,Austin,Bachelor,10,3,Yes,119902,8.1,9712,129614
+EMP0086,Design,Lead,Male,Seattle,PhD,18,4,No,174207,22.9,39893,214100
+EMP0087,Sales,Junior,Male,Remote,Bachelor,23,4,Yes,86979,16.3,14177,101156
+EMP0088,HR,Senior,Female,Seattle,Bachelor,10,4,No,127267,24.5,31180,158447
+EMP0089,Operations,Junior,Male,San Francisco,Bachelor,14,3,Yes,87145,1.7,1481,88626
+EMP0090,Legal,Mid,Male,Austin,PhD,7,4,Yes,100246,9.9,9924,110170
+EMP0091,Design,Mid,Female,New York,Bachelor,13,4,No,103470,20.9,21625,125095
+EMP0092,Finance,Lead,Female,New York,Bachelor,0,2,Yes,155184,10.6,16449,171633
+EMP0093,Legal,Senior,Male,Austin,Bachelor,9,4,Yes,126887,6.5,8247,135134
+EMP0094,HR,Lead,Male,New York,Bachelor,6,4,Yes,138120,24.9,34391,172511
+EMP0095,HR,Senior,Male,Austin,Master,17,3,No,120184,21.8,26200,146384
+EMP0096,Finance,Junior,Male,San Francisco,High School,11,3,No,95748,13.7,13117,108865
+EMP0097,Marketing,Lead,Female,San Francisco,Master,1,4,No,153782,14.0,21529,175311
+EMP0098,Finance,Lead,Male,Seattle,Bachelor,17,2,No,178660,0.2,357,179017
+EMP0099,HR,Manager,Female,New York,Bachelor,20,3,Yes,168539,24.5,41292,209831
+EMP0100,Engineering,Senior,Male,Austin,Bachelor,6,3,Yes,132908,20.2,26847,159755
+EMP0101,Finance,Lead,Male,San Francisco,Master,19,1,Yes,197346,0.9,1776,199122
+EMP0102,Design,Lead,Female,Seattle,Bachelor,11,3,No,160768,4.4,7073,167841
+EMP0103,Marketing,Junior,Female,New York,Bachelor,19,3,No,90276,20.5,18506,108782
+EMP0104,Finance,Junior,Male,New York,High School,24,3,Yes,101675,2.2,2236,103911
+EMP0105,Finance,Junior,Female,New York,Master,13,4,Yes,89908,23.5,21128,111036
+EMP0106,Sales,Mid,Female,San Francisco,Master,9,3,Yes,109974,25.0,27493,137467
+EMP0107,Sales,Senior,Male,San Francisco,Master,8,1,Yes,145314,22.2,32259,177573
+EMP0108,HR,Director,Male,New York,Bachelor,22,3,Yes,194750,18.5,36028,230778
+EMP0109,Design,Mid,Male,San Francisco,Bachelor,14,1,Yes,113058,12.2,13793,126851
+EMP0110,HR,Lead,Female,New York,Bachelor,19,3,Yes,154596,2.1,3246,157842
+EMP0111,Legal,Senior,Male,Chicago,Bachelor,23,3,No,154996,18.3,28364,183360
+EMP0112,Design,Mid,Female,San Francisco,Master,9,4,Yes,102941,9.9,10191,113132
+EMP0113,Finance,Junior,Female,Austin,Master,18,3,No,83687,14.3,11967,95654
+EMP0114,Engineering,Senior,Female,San Francisco,Master,18,3,No,188682,7.3,13773,202455
+EMP0115,Operations,Lead,Female,New York,Bachelor,11,4,No,143609,6.1,8760,152369
+EMP0116,HR,Director,Male,Austin,Master,22,3,Yes,176543,8.1,14299,190842
+EMP0117,Finance,Mid,Female,Seattle,PhD,11,4,No,110845,20.3,22501,133346
+EMP0118,Finance,Manager,Female,Austin,Bachelor,8,4,Yes,162366,10.7,17373,179739
+EMP0119,Operations,Mid,Male,Austin,Bachelor,19,3,Yes,98862,7.8,7711,106573
+EMP0120,Finance,Senior,Female,San Francisco,Bachelor,3,5,No,152614,10.8,16482,169096
+EMP0121,Operations,Senior,Female,Remote,Bachelor,0,5,No,90946,0.8,727,91673
+EMP0122,Operations,Junior,Male,Austin,Master,15,3,Yes,69563,22.3,15512,85075
+EMP0123,Legal,Junior,Male,Austin,Bachelor,0,5,No,70012,13.8,9661,79673
+EMP0124,Finance,Junior,Male,New York,Bachelor,12,4,Yes,83767,2.6,2177,85944
+EMP0125,Legal,Mid,Non-binary,San Francisco,Bachelor,2,5,No,111628,7.2,8037,119665
+EMP0126,Finance,Lead,Female,New York,Bachelor,11,4,No,170651,24.6,41980,212631
+EMP0127,Sales,Junior,Male,San Francisco,Bachelor,22,4,Yes,106229,14.8,15721,121950
+EMP0128,Operations,Senior,Female,Seattle,PhD,8,1,Yes,120200,7.3,8774,128974
+EMP0129,Marketing,Mid,Male,Remote,Bachelor,3,3,No,68340,10.7,7312,75652
+EMP0130,Operations,Lead,Male,Austin,Master,1,3,No,118176,6.5,7681,125857
+EMP0131,Marketing,Lead,Male,San Francisco,Master,21,3,No,176807,0.8,1414,178221
+EMP0132,Finance,Lead,Female,Austin,Bachelor,21,5,No,165449,21.1,34909,200358
+EMP0133,HR,Senior,Non-binary,Austin,PhD,8,2,No,95361,7.3,6961,102322
+EMP0134,Engineering,Mid,Non-binary,Chicago,Bachelor,19,4,Yes,125362,21.0,26326,151688
+EMP0135,Legal,Lead,Male,New York,Master,23,3,No,194988,12.0,23398,218386
+EMP0136,Finance,Junior,Female,Remote,Master,12,1,Yes,69353,4.6,3190,72543
+EMP0137,Engineering,Mid,Female,San Francisco,Bachelor,13,4,No,138294,20.0,27658,165952
+EMP0138,Sales,Junior,Male,Seattle,Bachelor,2,3,No,66800,9.4,6279,73079
+EMP0139,Marketing,Senior,Female,Remote,Master,17,5,No,120615,17.7,21348,141963
+EMP0140,Legal,Senior,Female,Chicago,Bachelor,8,3,No,132242,20.9,27638,159880
+EMP0141,Sales,Senior,Female,New York,Bachelor,14,3,Yes,141727,24.1,34156,175883
+EMP0142,HR,Mid,Male,Seattle,Master,21,1,No,103253,2.1,2168,105421
+EMP0143,HR,Junior,Female,Seattle,Master,23,3,Yes,85685,0.2,171,85856
+EMP0144,Operations,Manager,Female,Austin,Bachelor,9,1,No,134152,13.7,18378,152530
+EMP0145,Legal,Senior,Female,New York,High School,24,3,Yes,173900,6.6,11477,185377
+EMP0146,Legal,Mid,Male,Chicago,Bachelor,16,4,Yes,115702,11.7,13537,129239
+EMP0147,Legal,Senior,Female,San Francisco,High School,12,2,Yes,164474,1.8,2960,167434
+EMP0148,Finance,Junior,Male,San Francisco,Bachelor,0,3,Yes,75509,12.5,9438,84947
+EMP0149,Design,Junior,Male,Chicago,PhD,10,4,No,72869,3.1,2258,75127
+EMP0150,Design,Mid,Female,Austin,High School,4,3,No,75738,21.0,15904,91642
+EMP0151,Operations,Mid,Non-binary,Austin,Bachelor,8,3,No,83142,19.0,15796,98938
+EMP0152,HR,Mid,Female,Seattle,Master,6,4,Yes,94861,1.9,1802,96663
+EMP0153,HR,Manager,Female,New York,High School,6,4,Yes,148385,20.9,31012,179397
+EMP0154,Operations,Senior,Male,Seattle,High School,1,4,No,112533,8.1,9115,121648
+EMP0155,Sales,Senior,Male,San Francisco,Master,18,4,Yes,164064,8.8,14437,178501
+EMP0156,Engineering,Senior,Female,Chicago,Master,19,3,No,158294,4.5,7123,165417
+EMP0157,Marketing,Director,Female,New York,Master,17,2,Yes,204686,20.9,42779,247465
+EMP0158,HR,Junior,Female,Chicago,Master,9,3,No,64961,10.1,6561,71522
+EMP0159,Operations,Lead,Male,New York,Bachelor,24,5,No,169886,1.2,2038,171924
+EMP0160,HR,Senior,Female,Remote,Master,4,2,No,90631,24.2,21932,112563
+EMP0161,Sales,Junior,Female,San Francisco,High School,15,4,No,96749,6.4,6191,102940
+EMP0162,Legal,Mid,Male,San Francisco,Bachelor,22,4,No,142399,23.4,33321,175720
+EMP0163,Legal,Senior,Male,Remote,Bachelor,24,3,No,136094,7.5,10207,146301
+EMP0164,Design,Senior,Male,New York,Bachelor,4,3,No,121620,20.8,25296,146916
+EMP0165,Marketing,Mid,Female,Austin,Bachelor,14,3,Yes,94927,16.6,15757,110684
+EMP0166,Design,Senior,Female,New York,Bachelor,21,2,No,138989,21.5,29882,168871
+EMP0167,Legal,Senior,Female,San Francisco,Bachelor,15,3,No,169784,24.4,41427,211211
+EMP0168,Legal,Mid,Male,Chicago,Bachelor,3,1,No,89057,21.8,19414,108471
+EMP0169,Sales,Manager,Female,Seattle,Master,13,4,No,178506,10.1,18029,196535
+EMP0170,Design,Manager,Female,Chicago,Master,23,5,Yes,177802,20.4,36271,214073
+EMP0171,Engineering,Senior,Male,San Francisco,Bachelor,16,4,No,188323,17.8,33521,221844
+EMP0172,Sales,Director,Non-binary,Chicago,Bachelor,16,4,Yes,205638,1.5,3084,208722
+EMP0173,Marketing,Junior,Male,Austin,Bachelor,20,3,No,74956,23.2,17389,92345
+EMP0174,Legal,Junior,Male,Austin,Bachelor,15,3,Yes,84213,11.6,9768,93981
+EMP0175,Design,Mid,Male,New York,Master,8,1,Yes,95591,3.4,3250,98841
+EMP0176,Marketing,Senior,Male,Chicago,High School,1,3,No,99292,10.6,10524,109816
+EMP0177,HR,Senior,Female,Chicago,Bachelor,10,4,No,111679,15.1,16863,128542
+EMP0178,Engineering,Senior,Male,San Francisco,Bachelor,14,5,No,182065,14.3,26035,208100
+EMP0179,Finance,Junior,Female,New York,Master,2,3,No,68968,14.4,9931,78899
+EMP0180,HR,Junior,Male,New York,High School,23,3,Yes,88197,6.4,5644,93841
+EMP0181,Legal,Manager,Male,Chicago,Master,15,3,Yes,184555,15.8,29159,213714
+EMP0182,Operations,Manager,Female,Seattle,High School,20,3,No,178179,22.7,40446,218625
+EMP0183,Sales,Senior,Female,Chicago,Master,18,4,No,137343,9.7,13322,150665
+EMP0184,Design,Senior,Male,Chicago,PhD,21,4,No,142752,15.8,22554,165306
+EMP0185,Design,Senior,Non-binary,Chicago,Bachelor,5,4,No,109760,6.1,6695,116455
+EMP0186,Sales,Mid,Female,Austin,Master,13,4,No,96936,1.2,1163,98099
+EMP0187,Marketing,Mid,Male,Remote,Master,4,3,No,72739,14.6,10619,83358
+EMP0188,Operations,Senior,Male,New York,Master,4,5,No,115832,1.2,1389,117221
+EMP0189,Marketing,Senior,Male,Remote,Master,5,4,No,97368,18.1,17623,114991
+EMP0190,Operations,Junior,Female,Austin,Bachelor,17,3,No,76314,16.8,12820,89134
+EMP0191,Marketing,Director,Male,Seattle,Bachelor,21,3,No,214384,9.2,19723,234107
+EMP0192,Finance,Lead,Male,San Francisco,PhD,17,4,No,200820,10.3,20684,221504
+EMP0193,Finance,Mid,Male,Seattle,Bachelor,18,3,Yes,124674,22.9,28550,153224
+EMP0194,HR,Senior,Male,New York,PhD,1,4,Yes,106610,0.3,319,106929
+EMP0195,Finance,Manager,Female,San Francisco,Bachelor,16,3,Yes,211200,14.1,29779,240979
+EMP0196,Operations,Junior,Female,Remote,Bachelor,0,4,Yes,48920,23.1,11300,60220
+EMP0197,Marketing,Senior,Male,Seattle,Master,8,4,Yes,126370,22.8,28812,155182
+EMP0198,Operations,Senior,Male,New York,Master,12,4,No,124727,14.6,18210,142937
+EMP0199,HR,Mid,Male,Seattle,Bachelor,3,5,No,84401,9.5,8018,92419
+EMP0200,HR,Lead,Female,San Francisco,High School,4,5,Yes,148038,2.5,3700,151738
+EMP0201,Legal,Mid,Female,San Francisco,Master,22,4,No,141580,4.3,6087,147667
+EMP0202,Engineering,Junior,Male,Seattle,PhD,17,2,No,100288,17.0,17048,117336
+EMP0203,Finance,Junior,Male,Austin,Master,9,3,Yes,68967,0.4,275,69242
+EMP0204,Sales,Junior,Male,Seattle,Bachelor,24,3,Yes,101408,22.1,22411,123819
+EMP0205,Sales,Mid,Female,Remote,Bachelor,3,3,No,73935,14.7,10868,84803
+EMP0206,Engineering,Lead,Female,Seattle,PhD,12,5,No,197960,1.1,2177,200137
+EMP0207,Marketing,Mid,Male,Seattle,High School,12,5,No,106966,6.0,6417,113383
+EMP0208,Engineering,Senior,Male,Austin,Bachelor,16,3,No,148866,14.9,22181,171047
+EMP0209,Marketing,Senior,Male,Chicago,Bachelor,7,2,Yes,108371,0.9,975,109346
+EMP0210,Design,Mid,Female,San Francisco,Bachelor,3,1,No,96005,19.5,18720,114725
+EMP0211,Finance,Senior,Male,Remote,Bachelor,22,3,No,129424,23.0,29767,159191
+EMP0212,Finance,Senior,Male,New York,Bachelor,2,1,No,120417,24.0,28900,149317
+EMP0213,HR,Senior,Female,San Francisco,Master,10,4,Yes,131359,18.3,24038,155397
+EMP0214,HR,Mid,Male,San Francisco,Bachelor,11,4,No,103164,21.4,22077,125241
+EMP0215,HR,Senior,Female,Chicago,Bachelor,8,5,Yes,113392,15.3,17348,130740
+EMP0216,Design,Director,Male,San Francisco,Bachelor,14,3,No,227616,11.5,26175,253791
+EMP0217,HR,Mid,Female,San Francisco,PhD,12,3,No,101155,17.8,18005,119160
+EMP0218,Sales,Mid,Male,Austin,Master,4,5,No,90929,5.6,5092,96021
+EMP0219,Legal,Senior,Female,Austin,High School,4,3,No,117425,2.7,3170,120595
+EMP0220,HR,Junior,Male,Austin,High School,18,2,Yes,76572,19.0,14548,91120
+EMP0221,Design,Senior,Male,Austin,Bachelor,10,2,No,113526,24.0,27246,140772
+EMP0222,HR,Mid,Female,Austin,Master,8,4,Yes,79090,14.4,11388,90478
+EMP0223,HR,Junior,Female,Remote,Bachelor,2,4,Yes,46186,12.1,5588,51774
+EMP0224,Marketing,Senior,Male,New York,Bachelor,17,5,Yes,137539,13.4,18430,155969
+EMP0225,Operations,Junior,Female,Chicago,Master,12,2,No,69497,12.0,8339,77836
+EMP0226,HR,Mid,Male,Seattle,Master,24,4,Yes,117083,11.1,12996,130079
+EMP0227,Design,Junior,Female,Remote,Bachelor,11,4,Yes,70001,23.7,16590,86591
+EMP0228,Engineering,Junior,Male,Austin,Bachelor,8,3,No,79728,12.0,9567,89295
+EMP0229,HR,Lead,Male,Chicago,Bachelor,9,5,No,134816,2.0,2696,137512
+EMP0230,HR,Manager,Male,Seattle,Bachelor,12,4,No,163543,19.1,31236,194779
+EMP0231,Sales,Mid,Female,San Francisco,Bachelor,19,5,No,129037,9.8,12645,141682
+EMP0232,Operations,Senior,Female,Remote,PhD,19,5,No,119503,17.8,21271,140774
+EMP0233,HR,Mid,Male,San Francisco,High School,12,3,No,109368,14.5,15858,125226
+EMP0234,Operations,Senior,Non-binary,Chicago,Master,21,4,No,133512,17.8,23765,157277
+EMP0235,Marketing,Mid,Male,New York,Bachelor,8,3,Yes,90936,1.5,1364,92300
+EMP0236,Finance,Mid,Male,New York,Bachelor,23,4,Yes,126560,0.8,1012,127572
+EMP0237,Operations,Lead,Female,Chicago,Master,9,4,Yes,133161,9.5,12650,145811
+EMP0238,Operations,Junior,Male,New York,Master,18,4,Yes,86992,17.3,15049,102041
+EMP0239,HR,Junior,Male,New York,PhD,5,1,No,58635,5.6,3283,61918
+EMP0240,Legal,Lead,Male,San Francisco,Bachelor,6,4,No,184453,10.8,19920,204373
+EMP0241,HR,Senior,Male,New York,High School,14,3,Yes,126474,24.5,30986,157460
+EMP0242,HR,Senior,Female,New York,Bachelor,21,3,No,137514,5.4,7425,144939
+EMP0243,Sales,Senior,Male,Chicago,Bachelor,18,4,No,136316,21.2,28898,165214
+EMP0244,Legal,Senior,Male,New York,Bachelor,13,2,No,150582,20.6,31019,181601
+EMP0245,Finance,Mid,Male,Remote,Master,15,3,No,96789,22.3,21583,118372
+EMP0246,Sales,Mid,Male,Austin,Bachelor,13,3,Yes,98624,22.9,22584,121208
+EMP0247,Design,Senior,Male,Austin,PhD,24,3,No,138013,12.7,17527,155540
+EMP0248,Sales,Senior,Female,Chicago,Bachelor,19,3,Yes,139314,17.0,23683,162997
+EMP0249,Sales,Senior,Female,Austin,Master,1,4,No,107527,15.5,16666,124193
+EMP0250,Legal,Lead,Female,San Francisco,Bachelor,8,4,No,192274,7.7,14805,207079
+EMP0251,Marketing,Mid,Male,Remote,Bachelor,2,3,No,67800,7.0,4746,72546
+EMP0252,Finance,Mid,Male,Remote,Master,5,3,Yes,82413,8.5,7005,89418
+EMP0253,Marketing,Mid,Non-binary,Chicago,Bachelor,4,3,Yes,79106,5.5,4350,83456
+EMP0254,Marketing,Senior,Male,New York,Master,13,4,Yes,131285,18.9,24812,156097
+EMP0255,Finance,Senior,Non-binary,Austin,Bachelor,14,3,No,130948,24.1,31558,162506
+EMP0256,Marketing,Manager,Female,San Francisco,Master,17,2,Yes,180393,21.7,39145,219538
+EMP0257,Legal,Senior,Female,Chicago,Master,16,2,Yes,143460,5.4,7746,151206
+EMP0258,Finance,Manager,Male,Chicago,Bachelor,8,3,No,166441,1.3,2163,168604
+EMP0259,Operations,Lead,Male,New York,Bachelor,18,4,Yes,157672,18.9,29800,187472
+EMP0260,Design,Director,Female,Seattle,High School,22,1,No,221988,9.8,21754,243742
+EMP0261,Operations,Senior,Female,Austin,Bachelor,24,3,Yes,130165,20.6,26813,156978
+EMP0262,HR,Director,Male,San Francisco,High School,8,3,Yes,198270,19.5,38662,236932
+EMP0263,Sales,Junior,Female,Chicago,Bachelor,15,5,Yes,86883,15.6,13553,100436
+EMP0264,Design,Junior,Male,Austin,Bachelor,5,4,No,65432,6.4,4187,69619
+EMP0265,Operations,Senior,Male,San Francisco,PhD,7,3,No,128204,2.6,3333,131537
+EMP0266,Operations,Director,Female,Remote,Bachelor,24,3,Yes,173506,6.3,10930,184436
+EMP0267,Marketing,Mid,Male,Remote,PhD,2,5,No,68662,12.7,8720,77382
+EMP0268,Finance,Mid,Male,San Francisco,High School,21,3,No,135809,24.5,33273,169082
+EMP0269,Engineering,Senior,Male,Remote,Master,4,5,Yes,122237,1.6,1955,124192
+EMP0270,Marketing,Senior,Male,Chicago,Bachelor,6,3,No,101480,5.0,5074,106554
+EMP0271,Marketing,Mid,Male,Austin,Bachelor,22,2,Yes,102230,15.7,16050,118280
+EMP0272,Legal,Lead,Male,San Francisco,Master,24,4,Yes,214499,7.6,16301,230800
+EMP0273,Finance,Director,Male,Chicago,PhD,0,4,No,186524,21.5,40102,226626
+EMP0274,Engineering,Manager,Female,Austin,Bachelor,21,5,Yes,201974,3.5,7069,209043
+EMP0275,Engineering,Mid,Female,Austin,PhD,20,4,No,122072,24.1,29419,151491
+EMP0276,HR,Mid,Male,Chicago,Master,3,3,Yes,72716,22.8,16579,89295
+EMP0277,Marketing,Mid,Male,Austin,PhD,15,4,No,98706,22.2,21912,120618
+EMP0278,Legal,Mid,Male,Seattle,Bachelor,13,4,Yes,122206,4.3,5254,127460
+EMP0279,Sales,Junior,Female,San Francisco,PhD,0,4,No,68914,8.2,5650,74564
+EMP0280,Operations,Lead,Female,San Francisco,Master,3,3,Yes,147142,20.1,29575,176717
+EMP0281,Marketing,Mid,Non-binary,Austin,Bachelor,9,3,No,82044,20.2,16572,98616
+EMP0282,Sales,Manager,Male,Chicago,Bachelor,10,3,Yes,155888,17.6,27436,183324
+EMP0283,Design,Manager,Female,New York,Bachelor,6,4,No,157069,11.2,17591,174660
+EMP0284,Sales,Junior,Female,Remote,Bachelor,3,3,No,57499,7.8,4484,61983
+EMP0285,Design,Director,Female,Austin,Master,0,3,No,161177,24.1,38843,200020
+EMP0286,Design,Lead,Female,New York,Master,0,4,Yes,137110,3.5,4798,141908
+EMP0287,Finance,Senior,Male,Austin,Master,16,1,No,129331,1.1,1422,130753
+EMP0288,Marketing,Mid,Female,New York,Bachelor,9,4,Yes,103361,0.2,206,103567
+EMP0289,Finance,Senior,Female,Austin,Bachelor,4,5,No,121411,19.4,23553,144964
+EMP0290,HR,Mid,Male,Chicago,Bachelor,6,3,No,81872,1.4,1146,83018
+EMP0291,Sales,Senior,Male,Remote,Master,24,3,No,128992,13.5,17413,146405
+EMP0292,Engineering,Junior,Male,New York,Bachelor,7,3,No,85343,9.2,7851,93194
+EMP0293,Sales,Senior,Male,Seattle,Bachelor,1,4,Yes,127671,3.7,4723,132394
+EMP0294,HR,Mid,Male,Chicago,Bachelor,8,4,No,82300,18.5,15225,97525
+EMP0295,Sales,Junior,Non-binary,Remote,High School,3,1,Yes,50794,1.4,711,51505
+EMP0296,Finance,Senior,Female,Austin,Bachelor,11,2,Yes,122582,8.0,9806,132388
+EMP0297,Design,Senior,Female,New York,Bachelor,10,4,Yes,131455,14.1,18535,149990
+EMP0298,Marketing,Mid,Female,Remote,PhD,4,3,No,70072,10.1,7077,77149
+EMP0299,Engineering,Junior,Female,San Francisco,Bachelor,11,4,No,98577,6.5,6407,104984
+EMP0300,Finance,Manager,Female,Chicago,Master,20,4,Yes,182520,23.2,42344,224864
+EMP0301,Operations,Senior,Female,New York,Bachelor,3,4,No,114519,23.3,26682,141201
+EMP0302,Design,Junior,Male,Chicago,Master,12,5,Yes,74088,10.4,7705,81793
+EMP0303,Marketing,Senior,Male,New York,Bachelor,21,1,Yes,134509,9.8,13181,147690
+EMP0304,Engineering,Senior,Male,San Francisco,Master,0,3,Yes,158902,7.7,12235,171137
+EMP0305,HR,Junior,Male,Seattle,Master,17,4,No,82360,21.4,17625,99985
+EMP0306,Sales,Senior,Male,San Francisco,Bachelor,3,2,No,139872,14.2,19861,159733
+EMP0307,Engineering,Lead,Female,Austin,PhD,3,4,Yes,160345,2.2,3527,163872
+EMP0308,Legal,Lead,Female,Chicago,Bachelor,7,5,Yes,163279,21.3,34778,198057
+EMP0309,Operations,Mid,Male,Seattle,Master,24,5,Yes,122718,13.4,16444,139162
+EMP0310,HR,Manager,Non-binary,Chicago,Bachelor,19,4,No,158230,10.4,16455,174685
+EMP0311,Marketing,Mid,Male,Remote,PhD,5,5,Yes,76234,8.4,6403,82637
+EMP0312,Legal,Manager,Female,New York,Master,3,2,No,172404,2.5,4310,176714
+EMP0313,Engineering,Junior,Female,Austin,Bachelor,3,3,No,68039,23.9,16261,84300
+EMP0314,HR,Senior,Female,Austin,Bachelor,10,3,Yes,101396,18.5,18758,120154
+EMP0315,Marketing,Senior,Male,Chicago,Master,8,3,No,111001,3.3,3663,114664
+EMP0316,Legal,Mid,Female,Austin,Master,13,1,Yes,99117,12.8,12686,111803
+EMP0317,Legal,Lead,Male,Chicago,PhD,3,5,No,153138,13.9,21286,174424
+EMP0318,Finance,Senior,Female,New York,Bachelor,12,4,Yes,152367,4.2,6399,158766
+EMP0319,Sales,Junior,Male,New York,Bachelor,5,4,No,70023,10.7,7492,77515
+EMP0320,HR,Senior,Female,Chicago,Bachelor,12,2,No,110441,16.1,17781,128222
+EMP0321,Legal,Senior,Male,San Francisco,Bachelor,24,3,No,188188,7.1,13361,201549
+EMP0322,Finance,Junior,Female,San Francisco,Bachelor,2,5,No,77760,8.3,6454,84214
+EMP0323,Operations,Director,Male,New York,Bachelor,22,4,No,203511,3.1,6308,209819
+EMP0324,Design,Manager,Female,Seattle,Bachelor,6,4,Yes,166427,10.3,17141,183568
+EMP0325,Operations,Mid,Female,San Francisco,Bachelor,0,5,Yes,88656,14.6,12943,101599
+EMP0326,Marketing,Senior,Male,Chicago,Bachelor,10,4,Yes,120327,2.9,3489,123816
+EMP0327,Legal,Mid,Male,New York,Master,1,4,No,99651,15.4,15346,114997
+EMP0328,Legal,Lead,Female,Austin,Bachelor,4,3,No,141544,9.9,14012,155556
+EMP0329,Engineering,Manager,Male,Austin,Bachelor,23,3,No,198957,17.0,33822,232779
+EMP0330,Legal,Mid,Male,San Francisco,Bachelor,21,4,No,140994,7.9,11138,152132
+EMP0331,Sales,Lead,Male,Seattle,High School,13,3,No,165755,14.2,23537,189292
+EMP0332,Marketing,Senior,Female,Remote,PhD,12,4,No,108563,15.3,16610,125173
+EMP0333,HR,Mid,Male,San Francisco,Bachelor,15,3,No,108973,17.3,18852,127825
+EMP0334,Legal,Manager,Male,Seattle,Master,22,3,No,207461,18.9,39210,246671
+EMP0335,Design,Senior,Female,San Francisco,Bachelor,14,3,Yes,144864,3.4,4925,149789
+EMP0336,Sales,Senior,Male,Austin,Master,2,3,No,107174,24.1,25828,133002
+EMP0337,Legal,Senior,Male,Seattle,Bachelor,5,5,No,145008,21.1,30596,175604
+EMP0338,Finance,Mid,Female,Austin,Bachelor,8,3,No,94864,14.1,13375,108239
+EMP0339,Sales,Mid,Female,Chicago,Master,2,4,No,84776,22.3,18905,103681
+EMP0340,Finance,Manager,Male,Chicago,Bachelor,12,3,No,168672,9.6,16192,184864
+EMP0341,Marketing,Senior,Male,New York,Master,12,3,Yes,123424,0.9,1110,124534
+EMP0342,Design,Lead,Female,Austin,Bachelor,21,3,Yes,155845,18.2,28363,184208
+EMP0343,Legal,Mid,Male,Austin,Master,6,5,Yes,95208,23.6,22469,117677
+EMP0344,Engineering,Senior,Non-binary,New York,PhD,4,3,Yes,143904,4.0,5756,149660
+EMP0345,Operations,Director,Female,Chicago,PhD,7,4,Yes,170455,16.1,27443,197898
+EMP0346,Sales,Mid,Non-binary,Chicago,Bachelor,7,3,No,94795,20.3,19243,114038
+EMP0347,Engineering,Junior,Female,Seattle,Bachelor,21,1,No,105171,22.6,23768,128939
+EMP0348,Engineering,Senior,Male,Seattle,PhD,6,4,No,155931,6.9,10759,166690
+EMP0349,Operations,Mid,Female,Remote,Master,18,4,Yes,90594,3.2,2899,93493
+EMP0350,Sales,Junior,Female,Chicago,High School,6,4,No,64926,6.2,4025,68951
+EMP0351,Legal,Manager,Female,Remote,Bachelor,22,3,No,175874,14.4,25325,201199
+EMP0352,Design,Director,Male,San Francisco,Bachelor,3,2,No,215655,23.0,49600,265255
+EMP0353,Sales,Senior,Male,Austin,PhD,9,3,Yes,119590,14.6,17460,137050
+EMP0354,Engineering,Lead,Male,Seattle,Bachelor,12,5,No,199838,23.0,45962,245800
+EMP0355,HR,Manager,Female,San Francisco,Bachelor,3,2,Yes,150921,19.3,29127,180048
+EMP0356,HR,Lead,Female,Seattle,Master,18,5,No,160312,15.0,24046,184358
+EMP0357,Sales,Junior,Non-binary,New York,PhD,9,3,Yes,78873,0.5,394,79267
+EMP0358,Design,Junior,Female,Austin,Master,6,4,No,66437,8.3,5514,71951
+EMP0359,Engineering,Junior,Female,Remote,Bachelor,4,2,Yes,62085,1.4,869,62954
+EMP0360,Engineering,Junior,Male,Remote,Bachelor,2,3,No,64839,8.1,5251,70090
+EMP0361,Marketing,Mid,Male,Seattle,PhD,21,2,No,116158,1.6,1858,118016
+EMP0362,Engineering,Mid,Female,Chicago,Master,21,1,Yes,122978,4.2,5165,128143
+EMP0363,Operations,Mid,Female,Remote,Master,21,5,No,101255,10.3,10429,111684
+EMP0364,HR,Junior,Female,New York,Master,1,4,Yes,63050,12.9,8133,71183
+EMP0365,Marketing,Senior,Male,New York,Bachelor,10,4,No,131345,5.4,7092,138437
+EMP0366,Legal,Mid,Female,Chicago,Master,9,2,Yes,97923,18.3,17919,115842
+EMP0367,Operations,Lead,Female,New York,Bachelor,22,5,No,165770,14.8,24533,190303
+EMP0368,Legal,Junior,Male,Austin,Bachelor,12,3,No,80447,17.3,13917,94364
+EMP0369,HR,Lead,Female,Seattle,Master,6,5,Yes,142693,18.3,26112,168805
+EMP0370,Operations,Director,Male,New York,High School,9,1,Yes,184830,18.2,33639,218469
+EMP0371,Finance,Lead,Male,Austin,Bachelor,3,3,No,137717,23.4,32225,169942
+EMP0372,Sales,Lead,Female,Chicago,Bachelor,21,5,No,168091,5.9,9917,178008
+EMP0373,Design,Manager,Male,Seattle,Bachelor,19,3,No,180556,6.8,12277,192833
+EMP0374,Finance,Mid,Male,Chicago,Master,15,5,Yes,106079,2.4,2545,108624
+EMP0375,Sales,Director,Female,Seattle,Master,19,3,Yes,230324,14.8,34087,264411
+EMP0376,HR,Lead,Female,New York,Bachelor,5,4,No,125597,9.9,12434,138031
+EMP0377,HR,Lead,Male,New York,Bachelor,8,5,No,144533,12.4,17922,162455
+EMP0378,Finance,Mid,Female,Seattle,Bachelor,12,4,No,118040,4.2,4957,122997
+EMP0379,Design,Senior,Male,Austin,Bachelor,6,4,Yes,113569,16.2,18398,131967
+EMP0380,Operations,Senior,Non-binary,Austin,Master,17,3,No,121778,15.5,18875,140653
+EMP0381,Design,Senior,Female,Austin,Bachelor,13,3,No,119173,6.6,7865,127038
+EMP0382,Legal,Lead,Male,San Francisco,Master,21,3,Yes,208938,11.6,24236,233174
+EMP0383,Sales,Junior,Male,Remote,Bachelor,4,3,No,55773,22.4,12493,68266
+EMP0384,Sales,Mid,Male,Remote,Bachelor,21,4,Yes,107664,19.3,20779,128443
+EMP0385,Marketing,Mid,Male,Remote,High School,12,3,No,75007,5.7,4275,79282
+EMP0386,Engineering,Mid,Female,Austin,Bachelor,23,4,No,131139,22.0,28850,159989
+EMP0387,Operations,Junior,Male,New York,Master,7,4,Yes,62717,1.7,1066,63783
+EMP0388,Operations,Junior,Male,San Francisco,Bachelor,14,3,Yes,82271,10.3,8473,90744
+EMP0389,Marketing,Mid,Female,Austin,High School,18,5,No,98688,2.0,1973,100661
+EMP0390,HR,Senior,Male,New York,PhD,8,5,No,118791,23.1,27440,146231
+EMP0391,Finance,Junior,Female,San Francisco,Master,5,1,No,74666,1.0,746,75412
+EMP0392,Design,Manager,Male,New York,Bachelor,22,2,No,179845,3.8,6834,186679
+EMP0393,Operations,Lead,Female,Seattle,PhD,24,2,Yes,168141,22.9,38504,206645
+EMP0394,Sales,Lead,Female,New York,Bachelor,13,4,Yes,166774,14.6,24349,191123
+EMP0395,Marketing,Junior,Female,San Francisco,Master,22,3,Yes,99710,19.9,19842,119552
+EMP0396,Finance,Senior,Male,Austin,High School,9,4,No,126705,0.4,506,127211
+EMP0397,Legal,Senior,Male,Remote,Master,8,3,No,111557,10.5,11713,123270
+EMP0398,Finance,Director,Male,San Francisco,Bachelor,16,4,No,250000,24.6,61500,311500
+EMP0399,Operations,Lead,Male,Austin,Bachelor,12,4,No,126302,14.5,18313,144615
+EMP0400,Engineering,Senior,Male,Austin,Master,16,5,No,153068,21.2,32450,185518
+EMP0401,Design,Manager,Female,Chicago,Master,18,3,Yes,167207,24.1,40296,207503
+EMP0402,Sales,Junior,Female,Seattle,Master,12,3,Yes,83940,17.1,14353,98293
+EMP0403,Finance,Junior,Female,Chicago,Master,8,1,Yes,67849,8.2,5563,73412
+EMP0404,Legal,Senior,Male,Remote,Bachelor,0,3,Yes,108784,7.7,8376,117160
+EMP0405,Sales,Junior,Female,San Francisco,Bachelor,0,3,Yes,73157,1.8,1316,74473
+EMP0406,Operations,Junior,Non-binary,Chicago,Master,4,5,No,61476,10.7,6577,68053
+EMP0407,Marketing,Lead,Female,Remote,Master,7,4,Yes,116427,22.9,26661,143088
+EMP0408,Legal,Mid,Female,Austin,Bachelor,17,3,No,107535,12.0,12904,120439
+EMP0409,Finance,Senior,Non-binary,San Francisco,Bachelor,3,4,No,143937,22.8,32817,176754
+EMP0410,Legal,Manager,Non-binary,Chicago,Bachelor,21,3,No,189120,20.4,38580,227700
+EMP0411,Operations,Mid,Male,New York,PhD,0,2,No,70792,24.6,17414,88206
+EMP0412,Finance,Mid,Female,Remote,Bachelor,14,4,No,96904,23.7,22966,119870
+EMP0413,Legal,Junior,Male,Remote,Bachelor,19,5,Yes,90072,17.7,15942,106014
+EMP0414,Marketing,Junior,Female,Seattle,Bachelor,3,2,Yes,60248,21.8,13134,73382
+EMP0415,Legal,Junior,Female,New York,Master,24,4,No,106031,18.7,19827,125858
+EMP0416,Sales,Junior,Male,San Francisco,Master,8,5,Yes,86709,17.6,15260,101969
+EMP0417,Sales,Mid,Female,Chicago,Master,21,2,No,112028,17.9,20053,132081
+EMP0418,Finance,Mid,Female,Austin,Master,23,3,Yes,114974,18.0,20695,135669
+EMP0419,Operations,Lead,Male,Chicago,Bachelor,19,4,No,153102,9.5,14544,167646
+EMP0420,Marketing,Manager,Female,San Francisco,Bachelor,9,4,No,175410,10.6,18593,194003
+EMP0421,HR,Lead,Male,San Francisco,Master,23,3,Yes,170161,7.4,12591,182752
+EMP0422,Sales,Senior,Male,San Francisco,Bachelor,14,3,No,153418,3.7,5676,159094
+EMP0423,Legal,Junior,Non-binary,San Francisco,Bachelor,2,4,Yes,84756,11.5,9746,94502
+EMP0424,HR,Lead,Male,Remote,Master,1,4,Yes,107209,22.5,24122,131331
+EMP0425,Legal,Mid,Female,Chicago,Master,21,4,No,116565,16.3,19000,135565
+EMP0426,Finance,Junior,Female,New York,PhD,4,2,No,68507,1.4,959,69466
+EMP0427,HR,Lead,Non-binary,Austin,PhD,23,4,No,144867,20.3,29408,174275
+EMP0428,Operations,Mid,Female,Austin,Bachelor,0,4,No,73127,23.4,17111,90238
+EMP0429,Legal,Mid,Female,Seattle,PhD,10,5,Yes,115023,20.7,23809,138832
+EMP0430,Operations,Manager,Female,Remote,High School,11,5,Yes,136059,18.2,24762,160821
+EMP0431,Legal,Manager,Male,San Francisco,Master,2,4,Yes,192890,3.8,7329,200219
+EMP0432,HR,Mid,Male,San Francisco,Bachelor,22,5,Yes,121554,8.7,10575,132129
+EMP0433,Operations,Mid,Female,San Francisco,Bachelor,15,5,No,109615,14.1,15455,125070
+EMP0434,Sales,Senior,Female,Remote,PhD,13,4,No,119245,1.9,2265,121510
+EMP0435,Finance,Lead,Male,New York,Bachelor,11,4,Yes,163525,2.7,4415,167940
+EMP0436,HR,Junior,Male,San Francisco,Master,19,4,No,90660,23.4,21214,111874
+EMP0437,Legal,Senior,Female,Seattle,Bachelor,15,4,No,159301,17.6,28036,187337
+EMP0438,Sales,Director,Female,Seattle,High School,20,1,Yes,226186,6.9,15606,241792
+EMP0439,Legal,Mid,Male,New York,Bachelor,7,3,Yes,109855,8.2,9008,118863
+EMP0440,HR,Manager,Female,Remote,Master,16,2,No,135711,9.6,13028,148739
+EMP0441,Legal,Director,Male,San Francisco,Bachelor,16,3,No,250000,1.9,4750,254750
+EMP0442,Sales,Mid,Female,Chicago,Bachelor,6,2,Yes,88463,18.5,16365,104828
+EMP0443,Operations,Lead,Female,Chicago,Master,14,5,No,140468,4.4,6180,146648
+EMP0444,Operations,Mid,Female,Austin,Bachelor,8,3,No,77000,20.1,15477,92477
+EMP0445,Design,Lead,Male,New York,Bachelor,3,3,Yes,139146,21.1,29359,168505
+EMP0446,Design,Lead,Male,Chicago,PhD,7,4,Yes,136226,16.0,21796,158022
+EMP0447,Finance,Mid,Male,Austin,Bachelor,9,3,No,98322,19.2,18877,117199
+EMP0448,Legal,Lead,Female,Seattle,Bachelor,14,4,No,188415,4.3,8101,196516
+EMP0449,Operations,Lead,Female,Austin,Master,22,3,No,142400,14.4,20505,162905
+EMP0450,Marketing,Mid,Female,San Francisco,Master,17,3,Yes,112271,16.9,18973,131244
+EMP0451,Sales,Junior,Female,San Francisco,Master,13,5,Yes,90296,16.5,14898,105194
+EMP0452,Sales,Junior,Female,Seattle,PhD,4,4,Yes,67426,2.9,1955,69381
+EMP0453,HR,Senior,Male,New York,High School,8,5,Yes,120757,8.6,10385,131142
+EMP0454,Finance,Director,Female,Remote,PhD,12,3,No,180368,8.1,14609,194977
+EMP0455,Engineering,Lead,Male,San Francisco,PhD,24,3,Yes,232754,14.3,33283,266037
+EMP0456,Design,Mid,Male,San Francisco,Master,18,4,Yes,116499,19.1,22251,138750
+EMP0457,Design,Senior,Male,Austin,Bachelor,10,2,Yes,116044,14.3,16594,132638
+EMP0458,Operations,Mid,Male,Austin,Master,11,3,No,88100,18.9,16650,104750
+EMP0459,Design,Junior,Female,Austin,Bachelor,2,3,No,59455,2.5,1486,60941
+EMP0460,Engineering,Senior,Male,Chicago,Master,1,4,No,133986,22.0,29476,163462
+EMP0461,Marketing,Senior,Male,Seattle,Bachelor,22,4,No,150643,13.4,20186,170829
+EMP0462,Finance,Senior,Female,New York,Master,21,3,No,157217,0.9,1414,158631
+EMP0463,Sales,Director,Female,Austin,Master,14,3,Yes,190129,16.1,30610,220739
+EMP0464,Engineering,Senior,Female,New York,High School,4,5,No,149796,12.9,19323,169119
+EMP0465,Marketing,Senior,Male,Austin,Master,6,2,Yes,101491,5.5,5582,107073
+EMP0466,Finance,Junior,Male,San Francisco,Bachelor,3,4,No,82816,19.1,15817,98633
+EMP0467,Marketing,Director,Female,New York,Master,4,4,No,188838,23.3,43999,232837
+EMP0468,Operations,Lead,Female,Chicago,Bachelor,24,4,No,157763,8.1,12778,170541
+EMP0469,Design,Manager,Male,Austin,Master,15,3,Yes,154683,12.3,19026,173709
+EMP0470,Engineering,Mid,Non-binary,Remote,Bachelor,14,5,No,102015,3.2,3264,105279
+EMP0471,HR,Senior,Male,Seattle,Bachelor,15,3,No,132220,23.2,30675,162895
+EMP0472,HR,Senior,Male,San Francisco,Bachelor,24,3,No,153694,8.0,12295,165989
+EMP0473,Finance,Junior,Male,Austin,Master,3,3,Yes,63329,4.9,3103,66432
+EMP0474,Marketing,Senior,Male,New York,Master,5,3,Yes,117538,12.0,14104,131642
+EMP0475,Sales,Manager,Non-binary,Austin,Bachelor,17,3,Yes,161364,1.1,1775,163139
+EMP0476,Engineering,Junior,Male,San Francisco,Bachelor,2,5,Yes,87907,6.3,5538,93445
+EMP0477,HR,Junior,Male,Seattle,Bachelor,24,3,No,90163,1.7,1532,91695
+EMP0478,HR,Lead,Male,Seattle,PhD,21,5,No,164783,3.2,5273,170056
+EMP0479,Marketing,Mid,Male,Seattle,Master,23,3,Yes,120318,2.8,3368,123686
+EMP0480,HR,Senior,Male,Remote,Bachelor,4,3,No,90266,21.8,19677,109943
+EMP0481,Legal,Senior,Male,San Francisco,Bachelor,1,3,Yes,144091,23.3,33573,177664
+EMP0482,Design,Mid,Male,Remote,Bachelor,22,4,Yes,108246,11.9,12881,121127
+EMP0483,Marketing,Lead,Female,Remote,Master,15,4,No,130294,15.8,20586,150880
+EMP0484,Engineering,Senior,Female,Austin,High School,5,5,No,133602,17.4,23246,156848
+EMP0485,Marketing,Manager,Female,San Francisco,Master,14,4,No,181996,9.8,17835,199831
+EMP0486,HR,Lead,Female,San Francisco,Bachelor,17,3,Yes,163485,9.3,15204,178689
+EMP0487,Marketing,Manager,Male,Austin,Bachelor,5,1,Yes,129878,16.9,21949,151827
+EMP0488,HR,Junior,Female,Chicago,High School,12,5,Yes,68581,9.4,6446,75027
+EMP0489,Operations,Mid,Male,Remote,Master,23,5,Yes,102193,14.5,14817,117010
+EMP0490,Finance,Junior,Male,Seattle,PhD,12,3,Yes,88395,12.9,11402,99797
+EMP0491,HR,Mid,Female,New York,High School,0,1,No,74179,13.1,9717,83896
+EMP0492,Legal,Manager,Female,Remote,Bachelor,15,4,Yes,162394,20.7,33615,196009
+EMP0493,Legal,Senior,Male,New York,Bachelor,3,4,Yes,138426,17.6,24362,162788
+EMP0494,Legal,Lead,Male,Austin,Master,16,4,No,166002,24.0,39840,205842
+EMP0495,Legal,Mid,Male,New York,Master,17,3,No,124339,19.8,24619,148958
+EMP0496,HR,Mid,Female,Chicago,Bachelor,15,5,No,96131,3.6,3460,99591
+EMP0497,HR,Manager,Male,San Francisco,Bachelor,0,3,No,149059,18.5,27575,176634
+EMP0498,Finance,Mid,Female,Seattle,Master,5,3,Yes,103972,16.6,17259,121231
+EMP0499,Operations,Lead,Male,New York,Master,10,1,Yes,141691,16.2,22953,164644
+EMP0500,Design,Mid,Male,New York,High School,5,3,No,90328,12.0,10839,101167
+EMP0501,Sales,Manager,Male,Austin,Master,16,5,No,171092,1.6,2737,173829
+EMP0502,HR,Senior,Male,Austin,Master,3,4,No,98694,23.8,23489,122183
+EMP0503,Sales,Lead,Male,San Francisco,Bachelor,13,4,Yes,186210,21.3,39662,225872
+EMP0504,Engineering,Junior,Female,Seattle,Bachelor,13,3,Yes,92327,12.2,11263,103590
+EMP0505,Operations,Senior,Male,New York,Bachelor,19,4,No,138232,4.0,5529,143761
+EMP0506,Design,Manager,Female,San Francisco,Master,7,4,Yes,181903,20.6,37472,219375
+EMP0507,Marketing,Manager,Male,Seattle,Master,21,1,No,182335,10.8,19692,202027
+EMP0508,Sales,Junior,Female,San Francisco,PhD,1,5,No,76835,9.8,7529,84364
+EMP0509,Legal,Mid,Non-binary,New York,Bachelor,4,2,No,101661,16.6,16875,118536
+EMP0510,Operations,Mid,Male,Austin,Master,3,3,Yes,70829,19.0,13457,84286
+EMP0511,Engineering,Junior,Non-binary,Austin,Bachelor,9,3,Yes,79514,1.6,1272,80786
+EMP0512,Operations,Lead,Male,Austin,Bachelor,19,1,Yes,140197,19.2,26917,167114
+EMP0513,Marketing,Junior,Female,Chicago,Master,23,2,No,84485,18.3,15460,99945
+EMP0514,HR,Mid,Male,San Francisco,PhD,20,4,No,114839,14.7,16881,131720
+EMP0515,HR,Senior,Female,New York,Bachelor,2,3,Yes,112226,8.5,9539,121765
+EMP0516,Legal,Senior,Female,San Francisco,PhD,15,3,Yes,167392,4.1,6863,174255
+EMP0517,HR,Lead,Male,Austin,Bachelor,9,4,Yes,128165,2.6,3332,131497
+EMP0518,Finance,Director,Female,Remote,Bachelor,14,3,No,182316,0.0,0,182316
+EMP0519,Finance,Junior,Female,Remote,Bachelor,3,4,No,58211,5.2,3026,61237
+EMP0520,Finance,Lead,Female,San Francisco,Master,0,5,Yes,172981,10.3,17817,190798
+EMP0521,Legal,Mid,Non-binary,Seattle,Bachelor,21,2,No,130656,6.1,7970,138626
+EMP0522,Finance,Mid,Female,Remote,Bachelor,14,4,No,100429,7.7,7733,108162
+EMP0523,Engineering,Junior,Non-binary,Remote,Bachelor,9,3,No,71255,9.8,6982,78237
+EMP0524,Design,Junior,Female,San Francisco,Master,19,4,No,100611,7.7,7747,108358
+EMP0525,Legal,Mid,Male,Chicago,Bachelor,21,3,No,120140,18.1,21745,141885
+EMP0526,Operations,Mid,Male,Chicago,Bachelor,17,3,Yes,96752,12.3,11900,108652
+EMP0527,Engineering,Manager,Male,Austin,Master,15,2,No,185678,0.5,928,186606
+EMP0528,HR,Lead,Non-binary,New York,Master,20,4,No,161087,5.7,9181,170268
+EMP0529,Marketing,Director,Male,Seattle,Bachelor,8,2,Yes,195671,17.7,34633,230304
+EMP0530,Finance,Senior,Male,New York,Bachelor,23,3,Yes,157120,7.5,11784,168904
+EMP0531,Operations,Mid,Male,New York,Master,18,5,Yes,109198,23.0,25115,134313
+EMP0532,Marketing,Mid,Male,Seattle,Bachelor,16,3,Yes,108874,17.8,19379,128253
+EMP0533,Legal,Mid,Male,Chicago,Master,9,4,Yes,101945,7.2,7340,109285
+EMP0534,Legal,Mid,Female,Remote,Bachelor,18,3,No,104855,12.9,13526,118381
+EMP0535,Engineering,Senior,Male,Austin,Bachelor,7,5,Yes,136470,16.7,22790,159260
+EMP0536,Finance,Senior,Female,San Francisco,Bachelor,18,3,Yes,168552,4.8,8090,176642
+EMP0537,Legal,Mid,Female,Chicago,PhD,4,3,No,98618,6.2,6114,104732
+EMP0538,Engineering,Junior,Female,Austin,PhD,1,4,No,68319,12.7,8676,76995
+EMP0539,Engineering,Junior,Male,Remote,PhD,14,5,Yes,86673,23.1,20021,106694
+EMP0540,Sales,Mid,Female,Chicago,Bachelor,16,4,Yes,110149,8.6,9472,119621
+EMP0541,Operations,Junior,Female,Seattle,Master,9,3,No,69962,10.1,7066,77028
+EMP0542,Engineering,Lead,Male,New York,Bachelor,20,4,No,204269,4.8,9804,214073
+EMP0543,HR,Junior,Female,Seattle,Master,20,4,Yes,92040,14.8,13621,105661
+EMP0544,Legal,Lead,Female,Remote,Bachelor,21,5,No,166585,18.5,30818,197403
+EMP0545,Engineering,Mid,Male,San Francisco,Master,1,5,No,120352,11.0,13238,133590
+EMP0546,Finance,Junior,Male,Seattle,PhD,8,4,No,78493,18.8,14756,93249
+EMP0547,Legal,Lead,Female,Remote,Bachelor,1,4,Yes,131425,7.6,9988,141413
+EMP0548,Design,Senior,Female,New York,Bachelor,17,4,Yes,142186,17.7,25166,167352
+EMP0549,Design,Mid,Male,Chicago,Bachelor,11,4,Yes,96091,6.5,6245,102336
+EMP0550,Legal,Manager,Female,Austin,Bachelor,14,2,Yes,168341,19.5,32826,201167
+EMP0551,HR,Junior,Male,Remote,Bachelor,20,1,Yes,73127,20.8,15210,88337
+EMP0552,Engineering,Mid,Female,Remote,Master,24,1,Yes,113421,19.9,22570,135991
+EMP0553,HR,Lead,Male,San Francisco,Bachelor,19,5,No,170124,5.4,9186,179310
+EMP0554,Engineering,Lead,Male,Chicago,Master,5,2,Yes,162353,17.4,28249,190602
+EMP0555,Operations,Mid,Female,Remote,Bachelor,17,1,Yes,87096,13.5,11757,98853
+EMP0556,HR,Junior,Female,Remote,Bachelor,12,3,No,58405,24.7,14426,72831
+EMP0557,Marketing,Manager,Male,Austin,Bachelor,3,4,Yes,129155,9.0,11623,140778
+EMP0558,Sales,Mid,Male,New York,Bachelor,11,5,No,105941,19.3,20446,126387
+EMP0559,HR,Junior,Female,Seattle,Master,8,4,No,76574,9.3,7121,83695
+EMP0560,Finance,Senior,Female,Chicago,Bachelor,1,3,No,117247,9.9,11607,128854
+EMP0561,Design,Manager,Female,Austin,Master,15,5,No,155371,2.8,4350,159721
+EMP0562,Sales,Junior,Female,Austin,Bachelor,0,1,No,51219,6.0,3073,54292
+EMP0563,Sales,Lead,Non-binary,Seattle,PhD,3,5,No,161194,4.1,6608,167802
+EMP0564,Engineering,Senior,Female,Chicago,Master,14,2,No,154749,4.0,6189,160938
+EMP0565,HR,Mid,Male,Chicago,Bachelor,19,4,No,96234,0.2,192,96426
+EMP0566,Operations,Lead,Female,New York,Bachelor,0,1,Yes,120216,19.8,23802,144018
+EMP0567,Legal,Director,Male,Chicago,Bachelor,19,5,No,227235,11.7,26586,253821
+EMP0568,Sales,Mid,Female,Remote,Master,14,2,No,88928,20.1,17874,106802
+EMP0569,Finance,Junior,Male,Seattle,Bachelor,2,2,No,67917,15.3,10391,78308
+EMP0570,Design,Manager,Male,Chicago,Master,12,5,No,159663,20.8,33209,192872
+EMP0571,Operations,Senior,Male,New York,High School,17,2,Yes,134946,12.6,17003,151949
+EMP0572,Design,Mid,Male,Austin,Bachelor,12,4,Yes,90452,2.4,2170,92622
+EMP0573,Design,Senior,Male,Remote,Bachelor,9,4,No,107479,15.4,16551,124030
+EMP0574,Operations,Lead,Female,Chicago,Bachelor,19,4,Yes,149502,16.9,25265,174767
+EMP0575,Finance,Lead,Male,Seattle,Master,23,3,Yes,187395,15.7,29421,216816
+EMP0576,Legal,Manager,Female,Chicago,High School,6,5,No,175102,20.0,35020,210122
+EMP0577,Finance,Mid,Female,San Francisco,Master,24,5,No,142054,18.3,25995,168049
+EMP0578,Engineering,Mid,Female,New York,Master,7,3,Yes,110748,10.8,11960,122708
+EMP0579,Design,Senior,Female,Austin,Bachelor,0,3,No,105140,20.5,21553,126693
+EMP0580,Marketing,Mid,Male,San Francisco,Bachelor,17,3,Yes,116906,17.3,20224,137130
+EMP0581,Legal,Senior,Male,Seattle,Bachelor,11,3,Yes,150247,3.0,4507,154754
+EMP0582,HR,Mid,Female,Chicago,Master,17,4,Yes,100025,13.5,13503,113528
+EMP0583,Sales,Junior,Female,New York,Bachelor,23,5,No,102363,18.2,18630,120993
+EMP0584,HR,Senior,Female,Remote,High School,11,4,No,96840,13.8,13363,110203
+EMP0585,Operations,Senior,Female,Chicago,Bachelor,19,4,Yes,123263,23.7,29213,152476
+EMP0586,Sales,Lead,Male,Chicago,Bachelor,8,3,No,146060,2.5,3651,149711
+EMP0587,Legal,Senior,Female,Chicago,PhD,1,3,No,116035,18.1,21002,137037
+EMP0588,Engineering,Junior,Male,Remote,Master,13,4,Yes,83953,20.6,17294,101247
+EMP0589,Design,Mid,Female,Chicago,Bachelor,3,4,No,79857,17.6,14054,93911
+EMP0590,Design,Lead,Male,New York,Master,14,4,Yes,163761,9.6,15721,179482
+EMP0591,HR,Mid,Female,Remote,PhD,16,1,Yes,85845,9.6,8241,94086
+EMP0592,Engineering,Senior,Male,Remote,High School,18,4,No,143343,14.7,21071,164414
+EMP0593,Engineering,Senior,Female,San Francisco,Master,5,3,No,154309,9.9,15276,169585
+EMP0594,Legal,Mid,Non-binary,Seattle,Bachelor,8,3,No,114798,22.1,25370,140168
+EMP0595,HR,Lead,Male,Remote,Master,16,4,Yes,124740,2.7,3367,128107
+EMP0596,HR,Junior,Male,San Francisco,Master,14,3,Yes,81502,16.0,13040,94542
+EMP0597,Legal,Senior,Male,New York,PhD,4,5,No,137970,3.4,4690,142660
+EMP0598,Legal,Mid,Female,Seattle,Bachelor,17,3,Yes,129983,13.5,17547,147530
+EMP0599,Sales,Junior,Male,Remote,Master,22,4,No,86419,17.9,15469,101888
+EMP0600,Operations,Senior,Female,Austin,Bachelor,3,4,No,98221,4.1,4027,102248
+EMP0601,Operations,Senior,Male,San Francisco,Bachelor,20,3,No,151798,17.6,26716,178514
+EMP0602,Legal,Lead,Female,New York,PhD,23,4,Yes,196938,3.5,6892,203830
+EMP0603,Finance,Lead,Female,New York,Master,1,4,No,151302,15.5,23451,174753
+EMP0604,Engineering,Lead,Female,New York,Bachelor,18,5,No,203002,12.6,25578,228580
+EMP0605,Design,Mid,Female,Seattle,Master,4,3,No,93910,7.5,7043,100953
+EMP0606,Operations,Senior,Male,Chicago,High School,3,2,No,95163,2.8,2664,97827
+EMP0607,Marketing,Senior,Female,Austin,Bachelor,4,3,Yes,104256,18.4,19183,123439
+EMP0608,Legal,Mid,Female,Seattle,Master,18,4,Yes,128350,9.5,12193,140543
+EMP0609,Legal,Senior,Female,Seattle,Bachelor,12,3,No,159828,2.2,3516,163344
+EMP0610,Sales,Manager,Male,Remote,Bachelor,15,3,Yes,152429,19.3,29418,181847
+EMP0611,Legal,Junior,Female,San Francisco,Master,11,1,No,89028,5.8,5163,94191
+EMP0612,Sales,Manager,Non-binary,Austin,Bachelor,8,3,No,150037,18.4,27606,177643
+EMP0613,Finance,Junior,Non-binary,New York,High School,23,4,Yes,95765,14.1,13502,109267
+EMP0614,Finance,Mid,Female,Seattle,Bachelor,15,2,No,118402,4.9,5801,124203
+EMP0615,Legal,Mid,Male,Austin,PhD,13,3,No,103782,1.9,1971,105753
+EMP0616,Engineering,Senior,Male,San Francisco,Master,21,1,Yes,183972,14.8,27227,211199
+EMP0617,Sales,Junior,Male,Chicago,Bachelor,0,4,No,60039,0.6,360,60399
+EMP0618,Sales,Manager,Male,Austin,High School,19,5,No,175458,1.6,2807,178265
+EMP0619,Marketing,Lead,Male,New York,Master,22,4,No,170493,17.6,30006,200499
+EMP0620,Engineering,Senior,Male,Seattle,Master,20,1,Yes,176710,13.5,23855,200565
+EMP0621,Engineering,Senior,Female,Chicago,Bachelor,3,3,No,131135,8.2,10753,141888
+EMP0622,Operations,Manager,Non-binary,San Francisco,Bachelor,8,3,No,171778,13.5,23190,194968
+EMP0623,Finance,Lead,Female,New York,PhD,23,4,Yes,186229,14.8,27561,213790
+EMP0624,Operations,Senior,Male,Chicago,Bachelor,18,3,No,126318,14.1,17810,144128
+EMP0625,Design,Lead,Female,Remote,Bachelor,13,5,No,135882,16.1,21877,157759
+EMP0626,Engineering,Senior,Male,Remote,Master,21,5,No,147952,23.5,34768,182720
+EMP0627,Legal,Senior,Female,San Francisco,Bachelor,11,2,No,160867,9.7,15604,176471
+EMP0628,Marketing,Mid,Female,New York,Bachelor,3,2,No,77670,7.5,5825,83495
+EMP0629,Legal,Senior,Male,Seattle,PhD,6,3,Yes,144551,1.0,1445,145996
+EMP0630,Legal,Junior,Non-binary,San Francisco,Bachelor,16,3,No,99156,3.7,3668,102824
+EMP0631,Engineering,Mid,Male,Chicago,Bachelor,0,4,No,103964,2.7,2807,106771
+EMP0632,Operations,Senior,Female,New York,Bachelor,13,4,Yes,126946,8.4,10663,137609
+EMP0633,HR,Director,Male,Remote,Master,14,2,No,151106,15.2,22968,174074
+EMP0634,Legal,Director,Female,Remote,Master,11,4,Yes,188720,1.2,2264,190984
+EMP0635,Legal,Senior,Male,Austin,High School,11,4,Yes,131159,18.2,23870,155029
+EMP0636,HR,Senior,Female,New York,Master,5,5,Yes,110443,9.9,10933,121376
+EMP0637,Marketing,Junior,Female,Chicago,Bachelor,12,4,Yes,74261,24.1,17896,92157
+EMP0638,Finance,Senior,Female,Chicago,Bachelor,15,4,Yes,139423,14.2,19798,159221
+EMP0639,Sales,Junior,Female,Austin,Master,13,3,No,78092,19.3,15071,93163
+EMP0640,Engineering,Mid,Male,Chicago,Bachelor,6,4,Yes,110743,21.5,23809,134552
+EMP0641,Operations,Senior,Female,New York,PhD,24,2,No,145027,22.2,32195,177222
+EMP0642,Design,Mid,Non-binary,Remote,Master,15,4,No,92939,13.0,12082,105021
+EMP0643,Finance,Junior,Female,San Francisco,Bachelor,22,2,Yes,105899,9.9,10484,116383
+EMP0644,Operations,Lead,Male,Remote,Master,8,2,No,112984,14.0,15817,128801
+EMP0645,Finance,Mid,Male,Remote,Bachelor,13,2,No,84467,10.1,8531,92998
+EMP0646,Engineering,Junior,Male,New York,Master,24,2,Yes,111207,6.0,6672,117879
+EMP0647,Sales,Junior,Female,Chicago,High School,23,3,No,94112,8.1,7623,101735
+EMP0648,Engineering,Mid,Male,Austin,Bachelor,6,5,No,105990,5.8,6147,112137
+EMP0649,Sales,Junior,Female,Austin,Master,11,3,Yes,70574,6.7,4728,75302
+EMP0650,Operations,Lead,Female,Seattle,Master,2,4,No,135571,2.3,3118,138689
+EMP0651,Marketing,Mid,Male,Austin,Bachelor,13,2,No,88133,10.7,9430,97563
+EMP0652,Sales,Lead,Male,Austin,Bachelor,18,3,No,155948,5.9,9200,165148
+EMP0653,Design,Junior,Female,Chicago,Bachelor,10,3,No,64643,11.2,7240,71883
+EMP0654,Finance,Senior,Male,San Francisco,Bachelor,4,3,Yes,146256,19.8,28958,175214
+EMP0655,Marketing,Senior,Male,San Francisco,Bachelor,22,2,No,157490,11.2,17638,175128
+EMP0656,Operations,Senior,Male,Chicago,Master,12,3,No,114685,23.9,27409,142094
+EMP0657,HR,Senior,Male,Austin,Bachelor,9,2,No,96611,3.7,3574,100185
+EMP0658,Marketing,Manager,Female,New York,PhD,6,5,Yes,155233,21.3,33064,188297
+EMP0659,Sales,Mid,Male,Remote,Bachelor,16,3,No,95722,6.2,5934,101656
+EMP0660,Design,Senior,Male,Remote,Master,15,4,No,117128,23.3,27290,144418
+EMP0661,Marketing,Manager,Female,San Francisco,Bachelor,7,5,No,174864,5.7,9967,184831
+EMP0662,Design,Junior,Male,Chicago,Master,16,4,No,87308,18.7,16326,103634
+EMP0663,Design,Junior,Male,New York,Bachelor,12,5,No,82422,1.6,1318,83740
+EMP0664,Operations,Mid,Female,Austin,Master,10,2,No,82365,15.7,12931,95296
+EMP0665,Marketing,Senior,Female,Chicago,Bachelor,19,4,No,128842,5.5,7086,135928
+EMP0666,Operations,Mid,Male,San Francisco,Bachelor,17,3,Yes,115062,16.8,19330,134392
+EMP0667,HR,Junior,Male,New York,Bachelor,4,3,Yes,65691,15.9,10444,76135
+EMP0668,Sales,Senior,Female,New York,High School,5,4,Yes,127015,23.1,29340,156355
+EMP0669,Legal,Senior,Female,San Francisco,Master,19,5,No,177899,15.7,27930,205829
+EMP0670,Finance,Mid,Male,New York,Bachelor,13,5,No,108325,10.2,11049,119374
+EMP0671,Marketing,Mid,Male,Remote,Master,11,2,Yes,76652,4.8,3679,80331
+EMP0672,Legal,Senior,Male,San Francisco,Bachelor,3,3,Yes,156132,16.4,25605,181737
+EMP0673,Engineering,Manager,Female,Remote,Bachelor,6,4,No,158608,2.9,4599,163207
+EMP0674,Finance,Senior,Male,Chicago,Master,10,4,No,132580,20.7,27444,160024
+EMP0675,Marketing,Lead,Female,Seattle,Master,19,1,No,158939,6.2,9854,168793
+EMP0676,Finance,Mid,Female,Austin,Bachelor,1,3,No,83918,13.1,10993,94911
+EMP0677,Legal,Mid,Female,Chicago,Master,3,4,No,94201,14.9,14035,108236
+EMP0678,Engineering,Senior,Female,Remote,Master,6,4,No,125107,9.1,11384,136491
+EMP0679,Finance,Lead,Male,Austin,Master,0,3,Yes,133363,16.6,22138,155501
+EMP0680,Legal,Senior,Female,Austin,High School,14,4,Yes,142005,6.3,8946,150951
+EMP0681,Finance,Lead,Male,Remote,Master,19,4,Yes,151955,0.9,1367,153322
+EMP0682,Engineering,Director,Male,Remote,Bachelor,21,5,Yes,217122,24.0,52109,269231
+EMP0683,Design,Junior,Male,San Francisco,Master,23,4,No,101341,8.0,8107,109448
+EMP0684,Engineering,Junior,Male,Seattle,Bachelor,7,3,No,81206,17.8,14454,95660
+EMP0685,Engineering,Junior,Female,Remote,Master,24,5,No,99813,12.7,12676,112489
+EMP0686,Design,Mid,Female,Austin,Master,4,1,No,76059,16.7,12701,88760
+EMP0687,Design,Junior,Female,Austin,Bachelor,13,5,No,81289,2.8,2276,83565
+EMP0688,HR,Manager,Male,Chicago,Bachelor,17,4,No,148781,13.0,19341,168122
+EMP0689,Operations,Junior,Female,Seattle,Master,2,5,No,62657,9.8,6140,68797
+EMP0690,Operations,Mid,Male,Seattle,Bachelor,1,3,No,80188,11.3,9061,89249
+EMP0691,Legal,Junior,Male,Austin,High School,24,4,Yes,97576,24.2,23613,121189
+EMP0692,Engineering,Manager,Female,Seattle,High School,21,4,No,223217,3.4,7589,230806
+EMP0693,Legal,Senior,Male,Chicago,Master,15,4,No,143514,18.9,27124,170638
+EMP0694,Operations,Manager,Female,San Francisco,Master,13,3,No,174596,8.3,14491,189087
+EMP0695,Finance,Director,Male,Austin,Master,15,3,No,201896,7.3,14738,216634
+EMP0696,Engineering,Senior,Male,New York,Bachelor,10,4,Yes,161820,6.8,11003,172823
+EMP0697,Design,Mid,Female,Austin,Bachelor,16,3,No,98160,8.7,8539,106699
+EMP0698,Marketing,Junior,Non-binary,Austin,Bachelor,2,4,Yes,55726,8.9,4959,60685
+EMP0699,Engineering,Mid,Male,San Francisco,PhD,22,3,Yes,152122,6.8,10344,162466
+EMP0700,Design,Lead,Female,Remote,Bachelor,22,5,No,147493,16.7,24631,172124
+EMP0701,Engineering,Junior,Female,Remote,Bachelor,4,3,Yes,61790,1.2,741,62531
+EMP0702,Operations,Junior,Male,New York,Master,2,1,No,51447,8.3,4270,55717
+EMP0703,Legal,Senior,Female,New York,Master,14,1,Yes,143996,7.0,10079,154075
+EMP0704,Sales,Senior,Male,New York,High School,22,4,No,150743,18.8,28339,179082
+EMP0705,Finance,Senior,Male,Remote,Bachelor,4,4,No,114044,3.7,4219,118263
+EMP0706,Design,Mid,Male,San Francisco,Bachelor,21,4,Yes,124033,23.5,29147,153180
+EMP0707,Design,Lead,Female,Seattle,Master,2,4,No,148374,4.3,6380,154754
+EMP0708,Design,Senior,Male,New York,High School,5,3,No,121664,9.3,11314,132978
+EMP0709,Operations,Junior,Male,Seattle,Master,22,5,Yes,94219,5.0,4710,98929
+EMP0710,Legal,Lead,Male,Chicago,Bachelor,13,5,Yes,166310,7.2,11974,178284
+EMP0711,Legal,Director,Male,San Francisco,Master,23,1,No,250000,19.0,47500,297500
+EMP0712,Finance,Junior,Male,Seattle,Bachelor,1,5,Yes,68803,11.9,8187,76990
+EMP0713,Legal,Mid,Male,Remote,Bachelor,17,4,No,101315,4.1,4153,105468
+EMP0714,Design,Senior,Male,Remote,Master,5,4,No,104365,1.2,1252,105617
+EMP0715,Marketing,Junior,Male,New York,Master,23,4,Yes,90507,5.7,5158,95665
+EMP0716,Design,Manager,Female,New York,Master,4,4,No,161892,23.6,38206,200098
+EMP0717,HR,Mid,Female,Seattle,Master,13,5,No,106773,21.1,22529,129302
+EMP0718,Sales,Lead,Male,Remote,Bachelor,16,4,No,145933,11.0,16052,161985
+EMP0719,Marketing,Senior,Male,Seattle,Bachelor,10,3,Yes,130406,12.0,15648,146054
+EMP0720,Marketing,Senior,Male,Chicago,Bachelor,0,4,No,97911,22.5,22029,119940
+EMP0721,Design,Junior,Female,San Francisco,PhD,9,2,Yes,73635,14.8,10897,84532
+EMP0722,Finance,Mid,Male,Remote,Bachelor,8,4,Yes,84565,22.0,18604,103169
+EMP0723,Sales,Junior,Male,Austin,Bachelor,19,4,No,83255,12.3,10240,93495
+EMP0724,Finance,Mid,Male,Remote,Bachelor,11,3,Yes,86524,5.0,4326,90850
+EMP0725,HR,Mid,Male,Chicago,Master,0,2,Yes,66298,18.1,11999,78297
+EMP0726,Legal,Lead,Female,Remote,Master,23,4,Yes,164983,13.2,21777,186760
+EMP0727,Finance,Mid,Male,Chicago,PhD,17,3,Yes,112102,16.7,18721,130823
+EMP0728,Engineering,Lead,Male,Remote,Bachelor,11,3,Yes,154012,3.9,6006,160018
+EMP0729,Finance,Mid,Female,Chicago,Master,1,4,Yes,87505,16.2,14175,101680
+EMP0730,Legal,Lead,Female,New York,Bachelor,0,5,Yes,161595,9.6,15513,177108
+EMP0731,Engineering,Director,Male,Seattle,Bachelor,0,4,No,243278,8.3,20192,263470
+EMP0732,Marketing,Mid,Male,Remote,High School,24,3,Yes,99242,16.8,16672,115914
+EMP0733,HR,Manager,Male,San Francisco,Bachelor,0,4,No,156732,14.8,23196,179928
+EMP0734,Legal,Senior,Male,New York,Master,21,2,Yes,155755,16.2,25232,180987
+EMP0735,Operations,Lead,Male,Chicago,PhD,11,4,No,133489,24.1,32170,165659
+EMP0736,Engineering,Senior,Male,San Francisco,Bachelor,6,4,Yes,166098,17.5,29067,195165
+EMP0737,HR,Mid,Female,New York,PhD,3,5,No,86072,16.0,13771,99843
+EMP0738,Finance,Mid,Non-binary,Austin,Bachelor,20,5,No,111474,15.3,17055,128529
+EMP0739,Operations,Junior,Female,Remote,Bachelor,19,3,Yes,71078,10.0,7107,78185
+EMP0740,Finance,Senior,Male,Remote,Bachelor,3,5,Yes,109823,21.0,23062,132885
+EMP0741,Legal,Director,Female,Chicago,Bachelor,14,5,No,218143,9.5,20723,238866
+EMP0742,Marketing,Lead,Female,New York,Bachelor,0,4,No,135914,17.5,23784,159698
+EMP0743,Legal,Mid,Female,New York,Master,5,3,No,105644,7.3,7712,113356
+EMP0744,Design,Lead,Female,Chicago,Master,13,4,No,146886,3.7,5434,152320
+EMP0745,Legal,Lead,Female,Austin,Master,13,3,Yes,158707,3.2,5078,163785
+EMP0746,Legal,Mid,Male,Remote,Bachelor,9,4,Yes,98690,15.9,15691,114381
+EMP0747,Finance,Junior,Male,Seattle,Master,6,1,Yes,75491,8.2,6190,81681
+EMP0748,Engineering,Junior,Male,Austin,Master,22,4,Yes,101544,6.9,7006,108550
+EMP0749,Marketing,Manager,Male,Chicago,PhD,23,5,Yes,174555,14.8,25834,200389
+EMP0750,HR,Lead,Male,Seattle,Bachelor,22,3,Yes,159858,0.6,959,160817
+EMP0751,Marketing,Mid,Male,New York,PhD,21,4,No,117367,6.2,7276,124643
+EMP0752,Design,Mid,Female,Austin,Master,11,3,No,91816,8.5,7804,99620
+EMP0753,HR,Lead,Female,Austin,Master,23,4,Yes,150821,17.7,26695,177516
+EMP0754,Sales,Manager,Male,Remote,High School,18,4,No,153133,13.6,20826,173959
+EMP0755,Engineering,Lead,Male,Remote,Bachelor,8,3,Yes,152802,21.4,32699,185501
+EMP0756,Design,Senior,Female,Seattle,Bachelor,2,4,Yes,118273,8.4,9934,128207
+EMP0757,Engineering,Mid,Female,New York,High School,3,5,No,110872,7.4,8204,119076
+EMP0758,HR,Senior,Male,Austin,Bachelor,12,3,No,109867,0.8,878,110745
+EMP0759,Finance,Mid,Male,Seattle,PhD,9,4,No,112845,23.8,26857,139702
+EMP0760,Operations,Lead,Male,Austin,Bachelor,13,4,Yes,127480,12.5,15935,143415
+EMP0761,Finance,Mid,Male,Remote,Bachelor,5,3,Yes,77687,12.6,9788,87475
+EMP0762,Sales,Lead,Female,New York,Bachelor,7,5,No,155849,23.1,36001,191850
+EMP0763,HR,Mid,Female,New York,High School,18,4,Yes,102393,7.2,7372,109765
+EMP0764,Sales,Lead,Male,San Francisco,Bachelor,9,3,Yes,173173,8.3,14373,187546
+EMP0765,HR,Mid,Female,Seattle,Bachelor,21,3,No,111119,16.4,18223,129342
+EMP0766,Sales,Mid,Female,Remote,Bachelor,4,3,Yes,81266,19.6,15928,97194
+EMP0767,HR,Senior,Non-binary,Remote,Master,4,4,Yes,89824,17.5,15719,105543
+EMP0768,Engineering,Junior,Non-binary,Remote,Bachelor,4,4,Yes,72074,19.7,14198,86272
+EMP0769,Design,Manager,Male,Chicago,Master,8,4,Yes,152254,14.4,21924,174178
+EMP0770,Sales,Senior,Male,Austin,PhD,22,4,Yes,139582,21.6,30149,169731
+EMP0771,Sales,Senior,Female,New York,High School,8,3,No,134535,13.8,18565,153100
+EMP0772,Design,Lead,Non-binary,Austin,Master,14,4,Yes,144031,5.7,8209,152240
+EMP0773,HR,Manager,Non-binary,Austin,Bachelor,8,5,No,133053,13.5,17962,151015
+EMP0774,Marketing,Senior,Female,Chicago,Bachelor,13,5,Yes,127528,17.8,22699,150227
+EMP0775,Marketing,Manager,Male,New York,Bachelor,5,3,No,150185,16.3,24480,174665
+EMP0776,Engineering,Junior,Male,San Francisco,Bachelor,21,4,No,120810,6.1,7369,128179
+EMP0777,Finance,Junior,Female,Remote,PhD,19,3,Yes,80460,1.0,804,81264
+EMP0778,Finance,Senior,Female,Seattle,Bachelor,7,3,Yes,136255,6.3,8584,144839
+EMP0779,Engineering,Mid,Female,Austin,Bachelor,1,4,Yes,92504,24.6,22755,115259
+EMP0780,Finance,Senior,Male,Chicago,Bachelor,4,3,No,118887,4.6,5468,124355
+EMP0781,Design,Mid,Female,Chicago,Bachelor,16,3,Yes,101213,11.6,11740,112953
+EMP0782,Operations,Mid,Female,Seattle,PhD,9,4,No,93867,16.0,15018,108885
+EMP0783,Design,Lead,Male,Seattle,Bachelor,13,5,No,163241,22.0,35913,199154
+EMP0784,Operations,Senior,Male,New York,Bachelor,17,5,No,133891,19.0,25439,159330
+EMP0785,Operations,Director,Female,Austin,Bachelor,0,4,No,153174,22.7,34770,187944
+EMP0786,Legal,Lead,Female,Austin,Bachelor,21,3,Yes,171560,15.1,25905,197465
+EMP0787,Legal,Mid,Male,Seattle,High School,1,2,No,98887,21.6,21359,120246
+EMP0788,Operations,Mid,Male,Remote,Bachelor,3,4,No,73408,6.6,4844,78252
+EMP0789,HR,Mid,Male,San Francisco,Bachelor,12,5,No,107159,10.8,11573,118732
+EMP0790,Marketing,Lead,Male,Austin,Master,15,5,Yes,135674,21.1,28627,164301
+EMP0791,Engineering,Junior,Male,Chicago,Bachelor,4,4,No,76626,8.1,6206,82832
+EMP0792,Design,Mid,Female,Remote,Master,22,1,No,96772,21.8,21096,117868
+EMP0793,HR,Manager,Male,Seattle,PhD,9,3,No,156705,9.1,14260,170965
+EMP0794,Operations,Senior,Female,Austin,PhD,16,3,No,113581,9.1,10335,123916
+EMP0795,Engineering,Mid,Male,New York,Bachelor,10,5,No,125684,7.7,9677,135361
+EMP0796,Marketing,Mid,Male,Seattle,PhD,4,2,No,87988,13.7,12054,100042
+EMP0797,Finance,Manager,Female,Chicago,Master,14,4,No,174606,3.2,5587,180193
+EMP0798,HR,Manager,Female,New York,Master,3,2,Yes,140915,0.9,1268,142183
+EMP0799,Marketing,Mid,Male,Seattle,High School,6,4,No,97666,22.4,21877,119543
+EMP0800,Engineering,Mid,Female,Seattle,Bachelor,9,4,Yes,126248,23.2,29289,155537
+EMP0801,Sales,Lead,Male,Austin,PhD,22,4,Yes,155238,1.9,2949,158187
+EMP0802,HR,Lead,Male,New York,Bachelor,23,4,No,157032,13.7,21513,178545
+EMP0803,Design,Lead,Female,Seattle,Bachelor,3,4,No,148680,13.5,20071,168751
+EMP0804,Legal,Senior,Female,Remote,Bachelor,19,3,No,129258,9.3,12020,141278
+EMP0805,Engineering,Manager,Male,Chicago,PhD,4,3,No,174914,14.2,24837,199751
+EMP0806,Design,Mid,Male,New York,Bachelor,4,5,No,93846,11.5,10792,104638
+EMP0807,Engineering,Junior,Female,Remote,PhD,10,3,No,73027,12.2,8909,81936
+EMP0808,Legal,Lead,Male,Austin,Bachelor,18,2,Yes,163752,18.9,30949,194701
+EMP0809,Marketing,Senior,Female,San Francisco,Bachelor,4,3,No,131504,13.1,17227,148731
+EMP0810,Design,Manager,Male,Seattle,Bachelor,20,3,No,191342,8.1,15498,206840
+EMP0811,Design,Junior,Female,San Francisco,Master,7,3,Yes,78369,14.5,11363,89732
+EMP0812,Engineering,Lead,Male,Seattle,Bachelor,6,4,Yes,192880,16.0,30860,223740
+EMP0813,HR,Mid,Non-binary,Remote,Bachelor,7,5,Yes,74878,16.6,12429,87307
+EMP0814,Operations,Senior,Male,Austin,Bachelor,12,4,No,111065,15.5,17215,128280
+EMP0815,Legal,Junior,Female,Austin,Bachelor,4,1,Yes,62112,16.6,10310,72422
+EMP0816,HR,Senior,Male,Austin,Master,17,4,No,117612,7.8,9173,126785
+EMP0817,Legal,Lead,Male,Austin,Bachelor,23,4,No,177351,11.2,19863,197214
+EMP0818,Engineering,Mid,Male,New York,High School,8,5,No,119543,16.7,19963,139506
+EMP0819,Marketing,Mid,Female,New York,Bachelor,1,3,Yes,86127,18.9,16278,102405
+EMP0820,HR,Senior,Male,Seattle,Bachelor,15,3,No,130108,10.9,14181,144289
+EMP0821,Sales,Lead,Male,New York,PhD,13,4,Yes,163978,9.1,14921,178899
+EMP0822,Operations,Mid,Male,Seattle,Bachelor,16,4,Yes,105331,17.9,18854,124185
+EMP0823,Legal,Mid,Non-binary,New York,High School,5,4,Yes,103417,5.6,5791,109208
+EMP0824,Finance,Mid,Male,New York,Bachelor,2,2,No,94993,0.2,189,95182
+EMP0825,Marketing,Manager,Male,New York,Master,16,4,Yes,168484,11.8,19881,188365
+EMP0826,Marketing,Mid,Female,Chicago,Bachelor,12,2,Yes,90279,4.3,3881,94160
+EMP0827,Finance,Junior,Female,Austin,Bachelor,5,2,Yes,64730,9.5,6149,70879
+EMP0828,Finance,Lead,Male,Chicago,Master,7,3,No,151217,7.3,11038,162255
+EMP0829,HR,Senior,Female,New York,Master,24,3,No,142373,19.4,27620,169993
+EMP0830,Engineering,Junior,Male,New York,Bachelor,5,3,Yes,82007,8.3,6806,88813
+EMP0831,Engineering,Director,Male,Chicago,Bachelor,15,3,Yes,231871,16.0,37099,268970
+EMP0832,Sales,Senior,Female,Remote,Bachelor,5,1,No,97816,16.8,16433,114249
+EMP0833,Operations,Senior,Female,Seattle,Master,16,3,Yes,132038,11.4,15052,147090
+EMP0834,Legal,Mid,Male,Austin,PhD,20,2,Yes,110304,2.0,2206,112510
+EMP0835,Engineering,Manager,Male,Seattle,Bachelor,2,3,Yes,199613,17.5,34932,234545
+EMP0836,Design,Mid,Male,Remote,Master,22,3,No,100304,1.9,1905,102209
+EMP0837,Sales,Mid,Female,Austin,Bachelor,11,3,No,94697,2.5,2367,97064
+EMP0838,Sales,Junior,Non-binary,San Francisco,Master,24,3,Yes,106790,4.9,5232,112022
+EMP0839,Marketing,Lead,Male,Austin,Master,5,3,Yes,123852,7.0,8669,132521
+EMP0840,Marketing,Senior,Female,Seattle,Master,20,3,No,143804,21.2,30486,174290
+EMP0841,Operations,Senior,Male,Austin,Bachelor,6,4,No,111163,16.9,18786,129949
+EMP0842,HR,Mid,Female,San Francisco,High School,10,4,No,104004,9.7,10088,114092
+EMP0843,Design,Senior,Male,San Francisco,Master,8,5,Yes,140738,24.5,34480,175218
+EMP0844,Finance,Lead,Female,New York,Bachelor,15,4,No,176649,6.1,10775,187424
+EMP0845,Finance,Mid,Male,San Francisco,Bachelor,4,5,Yes,112842,15.2,17151,129993
+EMP0846,Operations,Lead,Female,Chicago,Bachelor,14,3,No,134153,21.2,28440,162593
+EMP0847,Sales,Mid,Male,Seattle,High School,20,4,Yes,116160,20.1,23348,139508
+EMP0848,Operations,Lead,Male,Chicago,Master,3,4,Yes,124245,2.3,2857,127102
+EMP0849,Finance,Junior,Female,Remote,Bachelor,4,5,No,62184,17.4,10820,73004
+EMP0850,Sales,Senior,Male,Chicago,Bachelor,6,3,No,115503,6.4,7392,122895
+EMP0851,Finance,Director,Male,Seattle,Bachelor,2,5,Yes,217627,8.9,19368,236995
+EMP0852,HR,Director,Female,Remote,Master,3,4,Yes,139972,12.2,17076,157048
+EMP0853,Marketing,Mid,Female,Chicago,PhD,24,4,No,110176,19.8,21814,131990
+EMP0854,Marketing,Mid,Male,Chicago,Bachelor,14,5,No,99740,4.2,4189,103929
+EMP0855,Sales,Junior,Male,Remote,Bachelor,1,5,No,56913,2.7,1536,58449
+EMP0856,Operations,Manager,Male,Chicago,Bachelor,23,4,No,166336,3.8,6320,172656
+EMP0857,Finance,Senior,Non-binary,San Francisco,Bachelor,24,3,Yes,179121,5.5,9851,188972
+EMP0858,Engineering,Mid,Male,Seattle,Master,4,3,No,115495,1.5,1732,117227
+EMP0859,HR,Junior,Male,Seattle,Bachelor,6,3,Yes,63579,23.2,14750,78329
+EMP0860,Finance,Manager,Female,Seattle,Bachelor,21,2,No,201005,8.0,16080,217085
+EMP0861,Legal,Senior,Male,Chicago,Bachelor,16,2,No,137034,4.4,6029,143063
+EMP0862,Engineering,Mid,Male,San Francisco,PhD,7,4,No,126762,15.9,20155,146917
+EMP0863,HR,Mid,Female,Seattle,Master,8,4,Yes,85504,19.7,16844,102348
+EMP0864,HR,Mid,Male,Austin,Master,9,1,Yes,75867,18.8,14262,90129
+EMP0865,Marketing,Senior,Female,Seattle,Bachelor,10,4,No,128268,18.0,23088,151356
+EMP0866,Sales,Manager,Female,New York,Bachelor,0,3,Yes,159273,1.3,2070,161343
+EMP0867,Finance,Manager,Male,Austin,Master,14,5,No,166698,19.6,32672,199370
+EMP0868,HR,Senior,Male,Seattle,Bachelor,7,2,No,116262,12.5,14532,130794
+EMP0869,Finance,Lead,Female,Chicago,Master,18,4,Yes,166964,16.2,27048,194012
+EMP0870,HR,Mid,Female,Seattle,Bachelor,11,5,Yes,98349,23.9,23505,121854
+EMP0871,Operations,Mid,Male,San Francisco,Bachelor,5,3,No,91923,20.3,18660,110583
+EMP0872,Design,Director,Male,San Francisco,Bachelor,9,4,Yes,224900,20.6,46329,271229
+EMP0873,Marketing,Mid,Female,Seattle,Master,23,5,No,121204,4.5,5454,126658
+EMP0874,Sales,Mid,Male,Chicago,High School,4,3,No,84202,11.9,10020,94222
+EMP0875,Engineering,Director,Female,Chicago,Master,23,5,Yes,250000,23.7,59250,309250
+EMP0876,Engineering,Junior,Non-binary,Chicago,Master,6,4,No,79794,14.6,11649,91443
+EMP0877,Operations,Lead,Male,Seattle,PhD,6,2,No,144083,2.6,3746,147829
+EMP0878,Legal,Manager,Female,Seattle,Bachelor,22,3,No,209756,18.3,38385,248141
+EMP0879,Marketing,Senior,Female,New York,Bachelor,24,4,No,145436,1.1,1599,147035
+EMP0880,HR,Junior,Male,San Francisco,PhD,21,5,No,92301,18.6,17167,109468
+EMP0881,Marketing,Mid,Female,Austin,Bachelor,21,3,Yes,100994,22.0,22218,123212
+EMP0882,Sales,Junior,Female,Austin,Bachelor,8,4,Yes,66431,10.6,7041,73472
+EMP0883,Design,Mid,Male,San Francisco,Bachelor,14,3,Yes,118062,10.3,12160,130222
+EMP0884,Engineering,Lead,Male,Remote,High School,5,4,No,147667,7.6,11222,158889
+EMP0885,Finance,Mid,Female,New York,Bachelor,15,4,Yes,113069,21.9,24762,137831
+EMP0886,Engineering,Mid,Female,San Francisco,Master,6,4,No,123756,13.7,16954,140710
+EMP0887,Legal,Senior,Non-binary,New York,Master,14,4,Yes,151543,14.5,21973,173516
+EMP0888,Legal,Senior,Female,Remote,High School,22,5,No,145219,16.5,23961,169180
+EMP0889,Legal,Manager,Male,New York,Master,1,3,No,171269,7.5,12845,184114
+EMP0890,Legal,Mid,Female,Chicago,Bachelor,7,4,No,100199,10.8,10821,111020
+EMP0891,Sales,Lead,Male,San Francisco,Bachelor,11,3,No,183024,18.5,33859,216883
+EMP0892,HR,Senior,Male,Austin,PhD,10,4,No,109296,24.6,26886,136182
+EMP0893,Marketing,Mid,Male,Seattle,Bachelor,5,4,Yes,88343,0.9,795,89138
+EMP0894,Engineering,Mid,Female,Remote,Master,19,3,No,106194,1.1,1168,107362
+EMP0895,Legal,Mid,Male,Remote,Bachelor,12,4,No,97294,10.7,10410,107704
+EMP0896,Engineering,Senior,Male,Seattle,Master,22,4,No,188528,16.5,31107,219635
+EMP0897,Legal,Mid,Male,San Francisco,Bachelor,15,5,No,137479,9.7,13335,150814
+EMP0898,Finance,Manager,Male,Seattle,Bachelor,7,2,Yes,180630,25.0,45157,225787
+EMP0899,Marketing,Senior,Female,New York,Bachelor,16,2,No,132955,4.9,6514,139469
+EMP0900,Finance,Manager,Non-binary,Seattle,Bachelor,12,4,Yes,193581,0.2,387,193968
+EMP0901,Finance,Junior,Female,New York,Bachelor,3,4,No,66993,4.8,3215,70208
+EMP0902,Legal,Mid,Female,New York,Master,19,3,Yes,124823,22.2,27710,152533
+EMP0903,Design,Junior,Female,Austin,Bachelor,9,5,Yes,74689,3.6,2688,77377
+EMP0904,HR,Mid,Female,Seattle,Master,24,4,No,123399,12.0,14807,138206
+EMP0905,Engineering,Manager,Female,Austin,Bachelor,21,5,No,200517,10.5,21054,221571
+EMP0906,Design,Junior,Male,Seattle,Bachelor,19,4,No,88673,16.6,14719,103392
+EMP0907,Operations,Mid,Male,New York,PhD,15,3,Yes,101973,1.4,1427,103400
+EMP0908,Marketing,Junior,Male,Seattle,PhD,16,3,No,85101,16.5,14041,99142
+EMP0909,Design,Mid,Male,Remote,Bachelor,7,5,No,84857,8.9,7552,92409
+EMP0910,HR,Lead,Male,Remote,Master,10,3,Yes,116269,23.2,26974,143243
+EMP0911,Operations,Senior,Female,Austin,Bachelor,24,5,Yes,138520,21.2,29366,167886
+EMP0912,HR,Lead,Female,Chicago,High School,4,4,Yes,123470,10.0,12347,135817
+EMP0913,Design,Mid,Male,Remote,Bachelor,20,3,No,97928,24.8,24286,122214
+EMP0914,Legal,Manager,Male,Austin,PhD,15,4,No,174613,1.3,2269,176882
+EMP0915,Legal,Lead,Female,Chicago,PhD,23,4,Yes,181942,19.7,35842,217784
+EMP0916,HR,Mid,Male,San Francisco,Bachelor,7,4,Yes,98313,10.8,10617,108930
+EMP0917,Design,Mid,Male,Austin,Master,20,2,Yes,102617,10.8,11082,113699
+EMP0918,Sales,Manager,Female,Remote,Master,15,5,No,154547,4.3,6645,161192
+EMP0919,Sales,Senior,Male,Remote,Bachelor,3,4,No,96058,12.9,12391,108449
+EMP0920,HR,Lead,Female,Seattle,Master,5,5,No,140841,2.1,2957,143798
+EMP0921,Sales,Mid,Female,Chicago,Bachelor,20,4,Yes,114627,15.4,17652,132279
+EMP0922,Marketing,Mid,Female,Remote,Bachelor,7,3,No,76007,6.0,4560,80567
+EMP0923,Engineering,Lead,Male,Seattle,Master,8,4,No,188053,18.1,34037,222090
+EMP0924,Operations,Senior,Male,Chicago,Bachelor,12,4,No,118670,15.2,18037,136707
+EMP0925,Legal,Senior,Male,Austin,Bachelor,16,3,No,138823,18.7,25959,164782
+EMP0926,Marketing,Senior,Male,Austin,Bachelor,8,5,Yes,114068,18.7,21330,135398
+EMP0927,Engineering,Mid,Male,Seattle,Master,12,3,No,127291,4.9,6237,133528
+EMP0928,Sales,Lead,Female,Austin,Bachelor,8,5,No,144248,0.0,0,144248
+EMP0929,Operations,Manager,Non-binary,Seattle,Bachelor,5,5,No,155510,9.1,14151,169661
+EMP0930,Marketing,Manager,Female,New York,Master,9,4,No,159158,23.0,36606,195764
+EMP0931,Finance,Mid,Male,Chicago,Bachelor,4,3,Yes,91514,14.4,13178,104692
+EMP0932,Legal,Mid,Female,Seattle,Master,6,4,Yes,114419,18.2,20824,135243
+EMP0933,HR,Lead,Male,Chicago,Bachelor,10,4,No,140870,22.0,30991,171861
+EMP0934,Legal,Senior,Male,New York,Bachelor,23,4,Yes,163477,22.7,37109,200586
+EMP0935,Engineering,Senior,Female,Chicago,Bachelor,8,4,No,135798,13.2,17925,153723
+EMP0936,Engineering,Manager,Male,Seattle,Bachelor,24,4,No,229916,13.5,31038,260954
+EMP0937,Finance,Senior,Female,Austin,PhD,9,4,No,122626,21.3,26119,148745
+EMP0938,Finance,Senior,Female,Chicago,Bachelor,10,4,No,134423,20.2,27153,161576
+EMP0939,HR,Junior,Male,Chicago,Master,2,3,No,58026,17.5,10154,68180
+EMP0940,Sales,Junior,Non-binary,Remote,High School,7,3,No,63833,15.1,9638,73471
+EMP0941,Legal,Junior,Male,Remote,Master,16,5,Yes,82220,15.4,12661,94881
+EMP0942,Marketing,Manager,Female,New York,PhD,6,4,No,155996,9.1,14195,170191
+EMP0943,Design,Mid,Male,San Francisco,Bachelor,11,1,No,109894,21.0,23077,132971
+EMP0944,Design,Senior,Male,Austin,Bachelor,15,5,No,128996,15.4,19865,148861
+EMP0945,Marketing,Lead,Male,Seattle,PhD,14,1,No,155279,5.6,8695,163974
+EMP0946,Marketing,Senior,Female,New York,Master,20,3,Yes,138254,6.0,8295,146549
+EMP0947,Sales,Senior,Female,Seattle,High School,12,2,No,136469,21.5,29340,165809
+EMP0948,Legal,Mid,Female,Seattle,Bachelor,17,5,Yes,132227,15.6,20627,152854
+EMP0949,Legal,Lead,Female,Chicago,High School,17,5,Yes,179733,10.0,17973,197706
+EMP0950,Design,Junior,Female,New York,Master,23,4,Yes,92367,4.7,4341,96708
+EMP0951,HR,Junior,Male,New York,Master,4,3,Yes,62898,15.3,9623,72521
+EMP0952,Marketing,Junior,Female,Remote,PhD,13,4,No,65706,4.6,3022,68728
+EMP0953,Engineering,Mid,Male,Austin,High School,10,4,Yes,109712,11.8,12946,122658
+EMP0954,Engineering,Mid,Male,San Francisco,Bachelor,2,3,Yes,114489,16.9,19348,133837
+EMP0955,Engineering,Senior,Male,Seattle,Bachelor,16,3,Yes,172967,14.1,24388,197355
+EMP0956,Finance,Mid,Male,Austin,Bachelor,22,4,No,117357,23.1,27109,144466
+EMP0957,Finance,Senior,Female,Remote,Bachelor,11,3,No,119031,1.0,1190,120221
+EMP0958,Sales,Junior,Male,Austin,Bachelor,2,1,No,56554,7.0,3958,60512
+EMP0959,Marketing,Junior,Female,Seattle,Master,22,4,No,94997,1.4,1329,96326
+EMP0960,Finance,Senior,Female,Chicago,Bachelor,1,4,No,120764,4.9,5917,126681
+EMP0961,Engineering,Manager,Male,Chicago,Bachelor,3,5,Yes,178162,3.1,5523,183685
+EMP0962,Finance,Manager,Female,Seattle,PhD,17,1,No,194226,18.3,35543,229769
+EMP0963,Legal,Director,Female,Remote,PhD,19,4,Yes,198716,9.2,18281,216997
+EMP0964,Engineering,Senior,Male,Remote,Bachelor,20,3,Yes,144750,23.1,33437,178187
+EMP0965,Marketing,Senior,Female,New York,PhD,13,3,No,127526,0.6,765,128291
+EMP0966,Legal,Senior,Male,San Francisco,Bachelor,7,4,No,159691,16.3,26029,185720
+EMP0967,Sales,Senior,Male,Chicago,Bachelor,1,3,No,110589,24.3,26873,137462
+EMP0968,HR,Junior,Male,San Francisco,Master,18,3,Yes,86872,4.4,3822,90694
+EMP0969,HR,Senior,Female,Austin,Master,9,4,No,105880,11.1,11752,117632
+EMP0970,Legal,Mid,Male,Austin,Master,4,3,No,86494,17.5,15136,101630
+EMP0971,Engineering,Mid,Male,Seattle,Master,10,5,Yes,129159,15.8,20407,149566
+EMP0972,Finance,Senior,Male,Seattle,Bachelor,8,3,Yes,141888,14.2,20148,162036
+EMP0973,Finance,Junior,Female,Seattle,Bachelor,15,3,No,86507,8.2,7093,93600
+EMP0974,Engineering,Mid,Female,Remote,Bachelor,4,3,Yes,87558,18.2,15935,103493
+EMP0975,Design,Junior,Female,Chicago,Bachelor,14,3,Yes,74703,16.3,12176,86879
+EMP0976,Marketing,Director,Male,San Francisco,Bachelor,13,5,Yes,223073,4.1,9145,232218
+EMP0977,Legal,Junior,Male,Austin,Bachelor,8,4,Yes,73709,24.1,17763,91472
+EMP0978,Engineering,Mid,Female,San Francisco,Master,19,3,Yes,146908,13.9,20420,167328
+EMP0979,Design,Manager,Male,Chicago,Master,4,4,Yes,142415,13.1,18656,161071
+EMP0980,Marketing,Senior,Male,San Francisco,Master,14,5,Yes,147725,21.2,31317,179042
+EMP0981,Sales,Junior,Male,San Francisco,Bachelor,8,2,No,80850,16.0,12936,93786
+EMP0982,Sales,Mid,Female,Remote,Master,3,3,Yes,74076,1.9,1407,75483
+EMP0983,Legal,Junior,Male,Seattle,Master,20,3,No,101451,12.7,12884,114335
+EMP0984,Engineering,Mid,Male,Remote,PhD,20,5,No,117077,19.5,22830,139907
+EMP0985,Sales,Junior,Female,Remote,Bachelor,3,3,No,59011,17.5,10326,69337
+EMP0986,Finance,Mid,Female,San Francisco,Bachelor,19,3,Yes,131279,24.3,31900,163179
+EMP0987,Marketing,Lead,Female,San Francisco,PhD,20,4,Yes,182488,0.6,1094,183582
+EMP0988,HR,Senior,Male,Remote,PhD,21,4,No,118952,6.5,7731,126683
+EMP0989,Design,Senior,Female,San Francisco,Bachelor,6,4,No,134763,13.7,18462,153225
+EMP0990,HR,Mid,Male,Remote,Bachelor,14,3,Yes,82324,15.5,12760,95084
+EMP0991,Sales,Mid,Female,New York,Master,21,4,Yes,123896,6.9,8548,132444
+EMP0992,Design,Lead,Female,Remote,Bachelor,16,5,No,139232,20.7,28821,168053
+EMP0993,Marketing,Junior,Male,Austin,Master,17,3,No,76633,4.1,3141,79774
+EMP0994,Finance,Manager,Male,Austin,Bachelor,6,3,No,154031,0.0,0,154031
+EMP0995,HR,Senior,Male,San Francisco,Bachelor,18,4,No,146169,23.8,34788,180957
+EMP0996,Finance,Lead,Male,Remote,High School,9,4,Yes,135288,9.8,13258,148546
+EMP0997,Finance,Mid,Male,Remote,Bachelor,12,3,No,91065,23.9,21764,112829
+EMP0998,HR,Mid,Female,Seattle,Bachelor,1,3,No,83141,6.9,5736,88877
+EMP0999,HR,Lead,Male,Seattle,Bachelor,21,4,No,163874,1.6,2621,166495
+EMP1000,Design,Lead,Female,Seattle,Bachelor,19,4,No,173471,19.3,33479,206950
