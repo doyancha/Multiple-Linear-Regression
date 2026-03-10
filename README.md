@@ -133,8 +133,8 @@ This project is licensed under the **MIT License** – see the [LICENSE](LICENSE
 
 ## 📬 Contact
 Mir Shahadut  
-Email: mir.shahadut@example.com  
-GitHub: [@mirshahadut](https://github.com/mirshahadut)
+Email: sujon6901@gmail.com  
+GitHub: [@mirshahadut](https://github.com/doyancha)
 
 ---
 
