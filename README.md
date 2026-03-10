@@ -165,6 +165,21 @@ Business / HR analytics regression – Intermediate–Advanced
 | 2    | Job_Level (Director/Sr)        | +                               | ★★★★☆      |
 | 3    | Experience_Years               | +                               | ★★★★☆      |
 | 4    | Department (Eng/Finance)       | + vs HR/Marketing               | ★★★☆☆      |
+
+## Final Recommendations for All Four Projects
+
+Here are practical next steps to level up your regression models across **Student Performance**, **House Prices**, **Used Cars**, and **Employee Compensation** projects:
+
+- Try log-target when prices/salaries are right-skewed  
+- Experiment with polynomial features (especially experience, size, mileage)  
+- Compare Ridge / Lasso vs plain LinearRegression  
+- Move to tree-based models (Random Forest → XGBoost → LightGBM) — usually +15–30% R²  
+- Always look at residual plots to diagnose problems
+
+Good luck with your regression learning journey!  
+
+Mir Shahadut  
+March 2026 – Dhaka
 | 5    | Performance_Rating             | +                               | ★★★☆☆      |
 
 ──────────────────────────────────────────────────────────────
